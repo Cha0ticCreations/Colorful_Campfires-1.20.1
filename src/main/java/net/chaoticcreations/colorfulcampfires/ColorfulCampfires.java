@@ -1,6 +1,9 @@
 package net.chaoticcreations.colorfulcampfires;
 
 import com.mojang.logging.LogUtils;
+import net.chaoticcreations.colorfulcampfires.item.ModCreatvieModeTabs;
+import net.chaoticcreations.colorfulcampfires.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -26,6 +29,10 @@ public class ColorfulCampfires
     {
         IEventBus modEventBus = context.getModEventBus();
 
+        ModCreatvieModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
@@ -47,7 +54,10 @@ public class ColorfulCampfires
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+        if(event.getTabKey()== CreativeModeTabs.FUNCTIONAL_BLOCKS)
+        {
+            event.accept(ModItems.BIRCH_CAMPFIRE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
