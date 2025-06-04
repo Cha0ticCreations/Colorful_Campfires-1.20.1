@@ -1,7 +1,8 @@
 package net.chaoticcreations.colorfulcampfires;
 
 import com.mojang.logging.LogUtils;
-import net.chaoticcreations.colorfulcampfires.item.ModCreatvieModeTabs;
+import net.chaoticcreations.colorfulcampfires.block.ModBlocks;
+import net.chaoticcreations.colorfulcampfires.item.ModCreativeModeTabs;
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,10 +29,9 @@ public class ColorfulCampfires
     public ColorfulCampfires(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
-
-        ModCreatvieModeTabs.register(modEventBus);
-
+        ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -56,7 +56,7 @@ public class ColorfulCampfires
     {
         if(event.getTabKey()== CreativeModeTabs.FUNCTIONAL_BLOCKS)
         {
-            event.accept(ModItems.BIRCH_CAMPFIRE);
+            //event.accept(ModItems.BIRCH_CAMPFIRE);
         }
     }
 

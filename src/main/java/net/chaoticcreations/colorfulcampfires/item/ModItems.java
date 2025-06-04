@@ -9,8 +9,11 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems
 {
+
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ColorfulCampfires.MOD_ID);
-    public static final RegistryObject<Item> BIRCH_CAMPFIRE = ITEMS.register("birch_campfire",()-> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BIRCH_CAMPFIRE_ITEM = ITEMS.register("birch_campfire_item",()-> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus)
     {
