@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/ ",
+    "/C/",
+    "BBB"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_dye"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    },
+    "B": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result":
+  {
+    "item": "colorfulcampfires:white_birch_campfire",
+    "count": 1
+  }
+}

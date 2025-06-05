@@ -21,6 +21,7 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModItems.BIRCH_CAMPFIRE_ITEM.get());
 
                         pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
 
                     })
                     .build());

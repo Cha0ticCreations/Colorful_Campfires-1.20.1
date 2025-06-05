@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/C/",
+    "BBB"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "B": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "result":
+  {
+    "item": "colorfulcampfires:birch_campfire",
+    "count": 1
+  }
+}
