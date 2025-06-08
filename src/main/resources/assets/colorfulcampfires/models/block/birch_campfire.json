@@ -5,7 +5,7 @@
     "fire": "colorfulcampfires:block/test_campfire_fire",
     "lit_log": "colorfulcampfires:block/test_birch_campfire_log_lit",
     "log": "colorfulcampfires:block/birch_campfire_log",
-    "particle": "colorfulcampfires:block/birch_campfire_log_lit",
+    "particle": "colorfulcampfires:block/birch_campfire_log_lit"
 
   }
 }
