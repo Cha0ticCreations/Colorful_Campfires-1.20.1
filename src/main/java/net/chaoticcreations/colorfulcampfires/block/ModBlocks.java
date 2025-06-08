@@ -2,6 +2,7 @@ package net.chaoticcreations.colorfulcampfires.block;
 
 import net.chaoticcreations.colorfulcampfires.ColorfulCampfires;
 
+//import net.chaoticcreations.colorfulcampfires.block.custom.ModCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -23,13 +24,24 @@ import static net.minecraft.world.item.Items.registerBlock;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, ColorfulCampfires.MOD_ID);
 
-
+//start registry
     public static final RegistryObject<CampfireBlock> BIRCH_CAMPFIRE = registerBlock("birch_campfire",
             ()->new CampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
     public static final RegistryObject<CampfireBlock> WHITE_BIRCH_CAMPFIRE = registerBlock("white_birch_campfire",
             ()->new CampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
+    public static final RegistryObject<CampfireBlock> WHITE_BIRCH_CAMPFIRE_DARK = registerBlock("white_birch_campfire_dark",
+            ()->new CampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+//    public static final RegistryObject<ModCampfireBlock> BIRCH_CAMPFIRE = registerBlock("birch_campfire",
+//            ()->new ModCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+//
+//    public static final RegistryObject<ModCampfireBlock> WHITE_BIRCH_CAMPFIRE = registerBlock("white_birch_campfire",
+//            ()->new ModCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+//
+//    public static final RegistryObject<ModCampfireBlock> WHITE_BIRCH_CAMPFIRE_DARK = registerBlock("white_birch_campfire_dark",
+//            ()->new ModCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
 
 

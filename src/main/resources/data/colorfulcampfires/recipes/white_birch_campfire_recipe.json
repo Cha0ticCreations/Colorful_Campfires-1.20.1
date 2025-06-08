@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "campfires",
   "pattern": [
     "#/ ",
     "/C/",
@@ -12,9 +13,14 @@
     "/": {
       "item": "minecraft:stick"
     },
-    "C": {
-      "item": "minecraft:charcoal"
-    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "B": {
       "item": "minecraft:birch_log"
     }
