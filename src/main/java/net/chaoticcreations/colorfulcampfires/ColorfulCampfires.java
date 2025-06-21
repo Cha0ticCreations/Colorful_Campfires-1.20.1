@@ -2,6 +2,7 @@ package net.chaoticcreations.colorfulcampfires;
 
 import com.mojang.logging.LogUtils;
 import net.chaoticcreations.colorfulcampfires.block.ModBlocks;
+import net.chaoticcreations.colorfulcampfires.block.entity.ModBlockEntities;
 import net.chaoticcreations.colorfulcampfires.item.ModCreativeModeTabs;
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,6 +33,8 @@ public class ColorfulCampfires
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
+
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

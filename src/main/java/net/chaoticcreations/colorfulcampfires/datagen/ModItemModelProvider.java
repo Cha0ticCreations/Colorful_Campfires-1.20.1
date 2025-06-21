@@ -18,6 +18,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     public void registerModels() {
         simpleItem(ModItems.BIRCH_CAMPFIRE_ITEM);
+        //simpleItem(ModItems.BIRCH_CAMPFIRE);
 
     }
 
