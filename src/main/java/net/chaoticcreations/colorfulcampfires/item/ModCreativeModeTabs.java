@@ -20,9 +20,12 @@ public class ModCreativeModeTabs
                     .displayItems((pParameters, pOutput)->{
                         pOutput.accept(ModItems.BIRCH_CAMPFIRE_ITEM.get());
 
+                        // REMEMBER TO ADD ALL CAMPFIRES HERE
                         pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
-//                        pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE_DARK.get());
-//                        pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WHITE_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_BIRCH_DARK_CAMPFIRE.get());
 
                     })
                     .build());

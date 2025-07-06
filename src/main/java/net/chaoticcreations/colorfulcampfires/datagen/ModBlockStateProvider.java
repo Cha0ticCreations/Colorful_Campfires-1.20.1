@@ -2,7 +2,7 @@ package net.chaoticcreations.colorfulcampfires.datagen;
 
 import net.chaoticcreations.colorfulcampfires.ColorfulCampfires;
 import net.chaoticcreations.colorfulcampfires.block.ModBlocks;
-import net.chaoticcreations.colorfulcampfires.block.custom.ModCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BirchCampfireBlock;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
@@ -17,6 +17,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        //ADD CAMPFIRES HERE BLOCK STATE NEED A SEPARATE FUNCTION
         simpleCampfireBlock(ModBlocks.BIRCH_CAMPFIRE,"birch");
 
         //simpleCampfireVariant(ModBlocks.BIRCH_CAMPFIRE);
@@ -31,7 +32,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlockWithItem(blockRegistryObject.get(),cubeAll(blockRegistryObject.get()));
     }
 
-    private BlockModelBuilder simpleCampfireBlock(RegistryObject<ModCampfireBlock> campfireBlock, String woodType){
+    private BlockModelBuilder simpleCampfireBlock(RegistryObject<BirchCampfireBlock> campfireBlock, String woodType){
         //noinspection removal
         return models().withExistingParent(campfireBlock.getId().getPath(),
                 new ResourceLocation("minecraft","block/template_campfire")).renderType("minecraft:cutout")
@@ -46,6 +47,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
 //                .texture("particle",modLoc("block/"+woodType+"_campfire_log_lit"));
 
     }
+
+    //BLOCK STATE FOR CAMPFIRE FUNCTION HERE
 
 
 }

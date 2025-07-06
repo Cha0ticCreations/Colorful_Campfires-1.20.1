@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "colorfulcampfires:white_birch_campfire_dark"
+          "name": "colorfulcampfires:white_birch_dark_campfire"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "colorfulcampfires:blocks/white_birch_campfire_dark"
+  "random_sequence": "colorfulcampfires:blocks/white_birch_dark_campfire"
 }

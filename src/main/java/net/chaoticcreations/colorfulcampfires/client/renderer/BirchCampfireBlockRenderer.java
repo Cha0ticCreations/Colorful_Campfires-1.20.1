@@ -2,7 +2,7 @@ package net.chaoticcreations.colorfulcampfires.client.renderer;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
-import net.chaoticcreations.colorfulcampfires.block.entity.ModCampfireBlockEntity;
+import net.chaoticcreations.colorfulcampfires.block.entity.BirchCampfireBlockEntity;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
@@ -12,11 +12,11 @@ import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.CampfireBlock;
 
-public class ModCampfireBlockRenderer implements BlockEntityRenderer<ModCampfireBlockEntity> {
-    public ModCampfireBlockRenderer(BlockEntityRendererProvider.Context context) {}
+public class BirchCampfireBlockRenderer implements BlockEntityRenderer<BirchCampfireBlockEntity> {
+    public BirchCampfireBlockRenderer(BlockEntityRendererProvider.Context context) {}
 
     @Override
-    public void render(ModCampfireBlockEntity entity, float partialTick, PoseStack poseStack, MultiBufferSource buffer,
+    public void render(BirchCampfireBlockEntity entity, float partialTick, PoseStack poseStack, MultiBufferSource buffer,
                        int combinedLight, int combinedOverlay) {
         Direction direction = entity.getBlockState().getValue(CampfireBlock.FACING);
         NonNullList<ItemStack> items = entity.getItems();

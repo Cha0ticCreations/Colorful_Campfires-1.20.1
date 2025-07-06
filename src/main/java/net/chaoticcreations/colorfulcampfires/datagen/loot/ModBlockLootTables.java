@@ -40,7 +40,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         //drop itself
         this.dropSelf(ModBlocks.BIRCH_CAMPFIRE.get());
 //        this.dropSelf(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
-//        this.dropSelf(ModBlocks.WHITE_BIRCH_CAMPFIRE_DARK.get());
+//        this.dropSelf(ModBlocks.WHITE_BIRCH_DARK_CAMPFIRE.get());
     }
 
     @Override

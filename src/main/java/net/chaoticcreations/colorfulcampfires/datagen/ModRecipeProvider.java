@@ -32,6 +32,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 //                .pattern()
 //                .define()
 //                .unlockedBy()
+        //        .save(pWriter);
+        //REMEMBER ADD CAMPFIRE RECIPES HERE
+        //Birch Campfire Recipe
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.BIRCH_CAMPFIRE.get())
                 .pattern(" S ")
                 .pattern("SCS")
