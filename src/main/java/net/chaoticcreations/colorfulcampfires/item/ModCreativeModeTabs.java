@@ -20,12 +20,22 @@ public class ModCreativeModeTabs
                     .displayItems((pParameters, pOutput)->{
                         pOutput.accept(ModItems.BIRCH_CAMPFIRE_ITEM.get());
 
-                        // REMEMBER TO ADD ALL CAMPFIRES HERE
+                        // CAMPFIRES ORGANIZED BY COLOR VARIANT
+                        // Birch Variants
                         pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());
+                        
+                        // White Birch Variants
                         pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.WHITE_BIRCH_DARK_CAMPFIRE.get());
+                        
+                        // Orange Birch Variants
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_DARK_CAMPFIRE.get());
+                        
+                        // Lime Birch Variants
+                        pOutput.accept(ModBlocks.LIME_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_BIRCH_DARK_CAMPFIRE.get());
 
                     })
                     .build());

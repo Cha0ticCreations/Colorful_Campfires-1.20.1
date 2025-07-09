@@ -8,6 +8,10 @@ import net.chaoticcreations.colorfulcampfires.block.custom.WhiteBirchCampfireBlo
 import net.chaoticcreations.colorfulcampfires.block.custom.WhiteBirchDarkCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.OrangeBirchCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.OrangeBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeBirchCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.StrippedBirchCampfireBlock;
+
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -20,8 +24,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
-
-import static net.minecraft.world.item.Items.registerBlock;
 
 
 public class ModBlocks {
@@ -57,6 +59,15 @@ public class ModBlocks {
     public static final RegistryObject<OrangeBirchDarkCampfireBlock> ORANGE_BIRCH_DARK_CAMPFIRE = registerBlock("orange_birch_dark_campfire",
             ()->new OrangeBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
+    public static final RegistryObject<LimeBirchCampfireBlock> LIME_BIRCH_CAMPFIRE = registerBlock("lime_birch_campfire",
+            ()->new LimeBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    public static final RegistryObject<LimeBirchDarkCampfireBlock> LIME_BIRCH_DARK_CAMPFIRE = registerBlock("lime_birch_dark_campfire",
+            ()->new LimeBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // Stripped variants
+    public static final RegistryObject<StrippedBirchCampfireBlock> STRIPPED_BIRCH_CAMPFIRE = registerBlock("stripped_birch_campfire",
+            ()->new StrippedBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)

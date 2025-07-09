@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    
+    "C": {
+      "item": "colorfulcampfires:lime_birch_campfire"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "-C"
+  ],
+  "result": {
+    "item": "colorfulcampfires:lime_birch_dark_campfire"
+  },
+  "show_notification": true
+}

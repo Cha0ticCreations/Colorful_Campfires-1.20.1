@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "L": {
+      "item": "minecraft:birch_log"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:lime_dye"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "pattern": [
+    "GS-",
+    "SCS",
+    "LLL"
+  ],
+  "result": {
+    "item": "colorfulcampfires:lime_birch_dark_campfire"
+  },
+  "show_notification": true
+}

@@ -15,10 +15,13 @@
     },
     "S": {
       "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "minecraft:orange_dye"
     }
   },
   "pattern": [
-    " S ",
+    "OS ",
     "SCS",
     "LLL"
   ],
