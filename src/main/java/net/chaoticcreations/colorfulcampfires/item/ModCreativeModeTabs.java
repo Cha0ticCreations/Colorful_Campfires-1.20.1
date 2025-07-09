@@ -36,6 +36,8 @@ public class ModCreativeModeTabs
                         // Lime Birch Variants
                         pOutput.accept(ModBlocks.LIME_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.LIME_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
 
                     })
                     .build());

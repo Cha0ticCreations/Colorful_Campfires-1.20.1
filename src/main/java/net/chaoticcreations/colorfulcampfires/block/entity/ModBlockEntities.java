@@ -56,6 +56,17 @@ public class ModBlockEntities {
                 BlockEntityType.Builder.of(StrippedBirchCampfireBlockEntity::new,
                         ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
 
+    // Colored stripped variants
+    public static final RegistryObject<BlockEntityType<LimeStrippedBirchCampfireBlockEntity>> LIME_STRIPPED_BIRCH_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_stripped_birch_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeStrippedBirchCampfireBlockEntity::new,
+                        ModBlocks.LIME_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
+
+    public static final RegistryObject<BlockEntityType<LimeStrippedBirchDarkCampfireBlockEntity>> LIME_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_stripped_birch_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeStrippedBirchDarkCampfireBlockEntity::new,
+                        ModBlocks.LIME_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
+
 //     public static final RegistryObject<BlockEntityType<OrangeStrippedBirchCampfireBlockEntity>> ORANGE_STRIPPED_BIRCH_CAMPFIRE_BE =
 //             BLOCK_ENTITIES.register("orange_stripped_birch_campfire_be", () ->
 //                 BlockEntityType.Builder.of(OrangeStrippedBirchCampfireBlockEntity::new,

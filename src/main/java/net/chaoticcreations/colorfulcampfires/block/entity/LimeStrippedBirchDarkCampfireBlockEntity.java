@@ -23,7 +23,7 @@ import net.minecraft.world.phys.Vec2;
 
 import java.util.Optional;
 
-public class WhiteBirchCampfireBlockEntity extends BlockEntity implements Clearable {
+public class LimeStrippedBirchDarkCampfireBlockEntity extends BlockEntity implements Clearable {
     private static final Vec2[] ITEM_SMOKE_OFFSETS = new Vec2[]{
             new Vec2(0.0F, 0.0F),
             new Vec2(0.4F, 0.0F),
@@ -36,11 +36,11 @@ public class WhiteBirchCampfireBlockEntity extends BlockEntity implements Cleara
     private final int[] cookingTime = new int[4];
     private final RecipeManager.CachedCheck<Container, CampfireCookingRecipe> quickCheck = RecipeManager.createCheck(RecipeType.CAMPFIRE_COOKING);
 
-    public WhiteBirchCampfireBlockEntity(BlockPos pos, BlockState state) {
-        super(ModBlockEntities.WHITE_BIRCH_CAMPFIRE_BE.get(), pos, state);
+    public LimeStrippedBirchDarkCampfireBlockEntity(BlockPos pos, BlockState state) {
+        super(ModBlockEntities.STRIPPED_BIRCH_CAMPFIRE_BE.get(), pos, state);
     }
 
-    public static void clientTick(Level level, BlockPos pos, BlockState state, WhiteBirchCampfireBlockEntity blockEntity) {
+    public static void clientTick(Level level, BlockPos pos, BlockState state, LimeStrippedBirchDarkCampfireBlockEntity blockEntity) {
         if (level.random.nextFloat() < 0.11F) {
             for (int i = 0; i < level.random.nextInt(2) + 2; ++i) {
                 CampfireBlock.makeParticles(level, pos, state.getValue(CampfireBlock.SIGNAL_FIRE), false);
@@ -60,7 +60,7 @@ public class WhiteBirchCampfireBlockEntity extends BlockEntity implements Cleara
         }
     }
 
-    public static void cookTick(Level level, BlockPos pos, BlockState state, WhiteBirchCampfireBlockEntity blockEntity) {
+    public static void cookTick(Level level, BlockPos pos, BlockState state, LimeStrippedBirchDarkCampfireBlockEntity blockEntity) {
         boolean flag = false;
 
         for (int i = 0; i < blockEntity.items.size(); ++i) {
@@ -87,7 +87,7 @@ public class WhiteBirchCampfireBlockEntity extends BlockEntity implements Cleara
         }
     }
 
-    public static void cooldownTick(Level level, BlockPos pos, BlockState state, WhiteBirchCampfireBlockEntity blockEntity) {
+    public static void cooldownTick(Level level, BlockPos pos, BlockState state, LimeStrippedBirchDarkCampfireBlockEntity blockEntity) {
         boolean flag = false;
 
         for (int i = 0; i < blockEntity.items.size(); ++i) {
