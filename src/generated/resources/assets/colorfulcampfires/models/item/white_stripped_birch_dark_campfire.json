@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures":
+  {
+    "layer0": "colorfulcampfires:item/white_stripped_birch_dark_campfire"
+
+  }
+}

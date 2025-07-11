@@ -67,25 +67,25 @@ public class ModBlockEntities {
                 BlockEntityType.Builder.of(LimeStrippedBirchDarkCampfireBlockEntity::new,
                         ModBlocks.LIME_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
 
-//     public static final RegistryObject<BlockEntityType<OrangeStrippedBirchCampfireBlockEntity>> ORANGE_STRIPPED_BIRCH_CAMPFIRE_BE =
-//             BLOCK_ENTITIES.register("orange_stripped_birch_campfire_be", () ->
-//                 BlockEntityType.Builder.of(OrangeStrippedBirchCampfireBlockEntity::new,
-//                         ModBlocks.ORANGE_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<OrangeStrippedBirchCampfireBlockEntity>> ORANGE_STRIPPED_BIRCH_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_stripped_birch_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeStrippedBirchCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
 
-//     public static final RegistryObject<BlockEntityType<OrangeStrippedBirchDarkCampfireBlockEntity>> ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
-//             BLOCK_ENTITIES.register("orange_stripped_birch_dark_campfire_be", () ->
-//                 BlockEntityType.Builder.of(OrangeStrippedBirchDarkCampfireBlockEntity::new,
-//                         ModBlocks.ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<OrangeStrippedBirchDarkCampfireBlockEntity>> ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_stripped_birch_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeStrippedBirchDarkCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
 
-//     public static final RegistryObject<BlockEntityType<WhiteStrippedBirchCampfireBlockEntity>> WHITE_STRIPPED_BIRCH_CAMPFIRE_BE =
-//             BLOCK_ENTITIES.register("white_stripped_birch_campfire_be", () ->
-//                 BlockEntityType.Builder.of(WhiteStrippedBirchCampfireBlockEntity::new,
-//                         ModBlocks.WHITE_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<WhiteStrippedBirchCampfireBlockEntity>> WHITE_STRIPPED_BIRCH_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_stripped_birch_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteStrippedBirchCampfireBlockEntity::new,
+                        ModBlocks.WHITE_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
 
-//     public static final RegistryObject<BlockEntityType<WhiteStrippedBirchDarkCampfireBlockEntity>> WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
-//             BLOCK_ENTITIES.register("white_stripped_birch_dark_campfire_be", () ->
-//                 BlockEntityType.Builder.of(WhiteStrippedBirchDarkCampfireBlockEntity::new,
-//                         ModBlocks.WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<WhiteStrippedBirchDarkCampfireBlockEntity>> WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_stripped_birch_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteStrippedBirchDarkCampfireBlockEntity::new,
+                        ModBlocks.WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
 
 
     public static void register(IEventBus eventBus){

@@ -28,10 +28,13 @@ public class ModCreativeModeTabs
                         // White Birch Variants
                         pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.WHITE_BIRCH_DARK_CAMPFIRE.get());
+
                         
                         // Orange Birch Variants
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
                         
                         // Lime Birch Variants
                         pOutput.accept(ModBlocks.LIME_BIRCH_CAMPFIRE.get());

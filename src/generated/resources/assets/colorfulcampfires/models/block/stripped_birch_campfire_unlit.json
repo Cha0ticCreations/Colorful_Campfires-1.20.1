@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/template_campfire",
+  "parent": "colorfulcampfires:block/template_campfire_unlit",
   "render_type": "minecraft:cutout",
   "textures": {
     "log": "colorfulcampfires:block/stripped_birch_campfire_log",
