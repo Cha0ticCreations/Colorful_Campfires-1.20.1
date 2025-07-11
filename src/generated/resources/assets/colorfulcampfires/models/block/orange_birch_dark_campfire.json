@@ -4,7 +4,7 @@
   "textures": {
     "fire": "colorfulcampfires:block/campfire_orange_dark_fire",
     "lit_log": "colorfulcampfires:block/orange_birch_dark_campfire_log_lit",
-    "log": "colorfulcampfires:block/orange_birch_dark_campfire_log",
+    "log": "colorfulcampfires:block/birch_campfire_log",
     "particle": "colorfulcampfires:block/orange_birch_dark_campfire_log_lit"
   }
 }
