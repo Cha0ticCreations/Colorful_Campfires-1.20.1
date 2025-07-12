@@ -1,0 +1,8 @@
+{
+  "parent": "colorfulcampfires:block/template_campfire_unlit",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "log": "colorfulcampfires:block/birch_campfire_log",
+    "particle": "colorfulcampfires:block/birch_campfire_log"
+  }
+}

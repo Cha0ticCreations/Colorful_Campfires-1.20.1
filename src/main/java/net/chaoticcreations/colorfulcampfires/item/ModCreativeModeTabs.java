@@ -22,25 +22,34 @@ public class ModCreativeModeTabs
 
                         // CAMPFIRES ORGANIZED BY COLOR VARIANT
                         // Birch Variants
-                        pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
-                        pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());
                         
-                        // White Birch Variants
+                        // === WHITE VARIANTS ===
                         pOutput.accept(ModBlocks.WHITE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.WHITE_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
 
-                        
-                        // Orange Birch Variants
+                        // === ORANGE VARIANTS ===
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ORANGE_BIRCH_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ORANGE_STRIPPED_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ORANGE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
-                        
-                        // Lime Birch Variants
+
+                        // === LIME VARIANTS ===
                         pOutput.accept(ModBlocks.LIME_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.LIME_BIRCH_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.LIME_STRIPPED_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.LIME_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
+
+                        // === BLUE VARIANTS ===
+                        pOutput.accept(ModBlocks.BLUE_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
+
+                        // === BASE VARIANT ===
+                        pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());
 
                     })
                     .build());
