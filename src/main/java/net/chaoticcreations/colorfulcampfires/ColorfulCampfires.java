@@ -5,8 +5,10 @@ import net.chaoticcreations.colorfulcampfires.block.ModBlocks;
 import net.chaoticcreations.colorfulcampfires.block.entity.ModBlockEntities;
 import net.chaoticcreations.colorfulcampfires.item.ModCreativeModeTabs;
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
+import net.chaoticcreations.colorfulcampfires.particle.*;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -34,6 +36,7 @@ public class ColorfulCampfires
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModParticles.register(modEventBus);
 
 
         // Register the commonSetup method for modloading
@@ -78,6 +81,13 @@ public class ColorfulCampfires
         public static void onClientSetup(FMLClientSetupEvent event)
         {
 
+        }
+        @SubscribeEvent
+        public static void registerParticleProvider(RegisterParticleProvidersEvent event){
+            event.registerSpriteSet(ModParticles.BLUE_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.LIME_FIRE_EMBERS.get(), LimeFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.ORANGE_FIRE_EMBERS.get(), OrangeFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.WHITE_FIRE_EMBERS.get(), WhiteFireEmberParticles.Provider::new);
         }
     }
 }
