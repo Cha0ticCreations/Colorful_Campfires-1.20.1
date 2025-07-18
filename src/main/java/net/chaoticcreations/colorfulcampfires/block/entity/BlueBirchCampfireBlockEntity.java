@@ -1,5 +1,6 @@
 package net.chaoticcreations.colorfulcampfires.block.entity;
 
+import net.chaoticcreations.colorfulcampfires.particle.ModParticles;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -20,6 +21,7 @@ import net.minecraft.world.level.block.CampfireBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec2;
+import net.minecraftforge.fml.common.Mod;
 
 import java.util.Optional;
 
@@ -56,6 +58,8 @@ public class BlueBirchCampfireBlockEntity extends BlockEntity implements Clearab
                 double d1 = (double) pos.getY() + 1.0;
                 double d2 = (double) pos.getZ() + 0.5 - (double) ((float) direction.getStepZ() * 0.35F) + (double) ((float) direction.getClockWise().getStepZ() * vec2.x);
                 level.addParticle(ParticleTypes.SMOKE, d0, d1, d2, 0.0, 0.1, 0.0);
+                //level.addParticle(ParticleTypes.FLAME, d0, d1, d2, 0.0, 0.1, 0.0);
+                //  level.addParticle(ModParticles.ORANGE_SMOKE, d0, d1, d2, 0.0, 0.1, 0.0);
             }
         }
     }

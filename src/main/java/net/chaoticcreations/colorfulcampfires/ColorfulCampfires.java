@@ -84,10 +84,28 @@ public class ColorfulCampfires
         }
         @SubscribeEvent
         public static void registerParticleProvider(RegisterParticleProvidersEvent event){
+
+          
+            //EMBER PARTICLES (sorted by color)
+            // Blue
             event.registerSpriteSet(ModParticles.BLUE_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.BLUE_DARK_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
+
+            // Lime
             event.registerSpriteSet(ModParticles.LIME_FIRE_EMBERS.get(), LimeFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.LIME_DARK_FIRE_EMBERS.get(), LimeFireEmberParticles.Provider::new);
+
+            // Orange
             event.registerSpriteSet(ModParticles.ORANGE_FIRE_EMBERS.get(), OrangeFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.ORANGE_DARK_FIRE_EMBERS.get(), OrangeFireEmberParticles.Provider::new);
+
+            // Pink
+            event.registerSpriteSet(ModParticles.PINK_FIRE_EMBERS.get(), PinkFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.PINK_DARK_FIRE_EMBERS.get(), PinkFireEmberParticles.Provider::new);
+
+            // White
             event.registerSpriteSet(ModParticles.WHITE_FIRE_EMBERS.get(), WhiteFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.WHITE_DARK_FIRE_EMBERS.get(), WhiteFireEmberParticles.Provider::new);
         }
     }
 }

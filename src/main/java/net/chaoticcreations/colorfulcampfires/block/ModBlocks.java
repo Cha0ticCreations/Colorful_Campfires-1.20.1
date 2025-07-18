@@ -21,6 +21,10 @@ import net.chaoticcreations.colorfulcampfires.block.custom.BlueBirchCampfireBloc
 import net.chaoticcreations.colorfulcampfires.block.custom.BlueBirchDarkCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.BlueStrippedBirchCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.BlueStrippedBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkBirchCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkStrippedBirchCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkStrippedBirchDarkCampfireBlock;
 
 
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
@@ -94,6 +98,16 @@ public class ModBlocks {
             ()->new BlueStrippedBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
     public static final RegistryObject<BlueStrippedBirchDarkCampfireBlock> BLUE_STRIPPED_BIRCH_DARK_CAMPFIRE = registerBlock("blue_stripped_birch_dark_campfire",
             ()->new BlueStrippedBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === PINK VARIANTS ===
+    public static final RegistryObject<PinkBirchCampfireBlock> PINK_BIRCH_CAMPFIRE = registerBlock("pink_birch_campfire",
+            ()->new PinkBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkBirchDarkCampfireBlock> PINK_BIRCH_DARK_CAMPFIRE = registerBlock("pink_birch_dark_campfire",
+            ()->new PinkBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedBirchCampfireBlock> PINK_STRIPPED_BIRCH_CAMPFIRE = registerBlock("pink_stripped_birch_campfire",
+            ()->new PinkStrippedBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedBirchDarkCampfireBlock> PINK_STRIPPED_BIRCH_DARK_CAMPFIRE = registerBlock("pink_stripped_birch_dark_campfire",
+            ()->new PinkStrippedBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
     // === BASE VARIANT ===
     public static final RegistryObject<BirchCampfireBlock> BIRCH_CAMPFIRE = registerBlock("birch_campfire",

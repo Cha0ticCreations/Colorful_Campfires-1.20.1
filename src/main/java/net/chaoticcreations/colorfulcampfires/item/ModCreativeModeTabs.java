@@ -47,6 +47,12 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.BLUE_STRIPPED_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.BLUE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
 
+                        // === PINK VARIANTS ===
+                        pOutput.accept(ModBlocks.PINK_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_BIRCH_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
+
                         // === BASE VARIANT ===
                         pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());

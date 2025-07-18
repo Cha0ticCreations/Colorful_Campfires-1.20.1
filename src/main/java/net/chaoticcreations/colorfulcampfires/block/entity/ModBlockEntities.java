@@ -13,6 +13,7 @@ public class ModBlockEntities {
             DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ColorfulCampfires.MOD_ID);
 
 
+
     // === WHITE VARIANTS ===
     public static final RegistryObject<BlockEntityType<WhiteBirchCampfireBlockEntity>> WHITE_BIRCH_CAMPFIRE_BE =
             BLOCK_ENTITIES.register("white_birch_campfire_be", () ->
@@ -84,6 +85,24 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("blue_stripped_birch_dark_campfire_be", () ->
                 BlockEntityType.Builder.of(BlueStrippedBirchDarkCampfireBlockEntity::new,
                         ModBlocks.BLUE_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
+
+    // === PINK VARIANTS ===
+    public static final RegistryObject<BlockEntityType<PinkBirchCampfireBlockEntity>> PINK_BIRCH_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_birch_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkBirchCampfireBlockEntity::new,
+                        ModBlocks.PINK_BIRCH_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkBirchDarkCampfireBlockEntity>> PINK_BIRCH_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_birch_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkBirchDarkCampfireBlockEntity::new,
+                        ModBlocks.PINK_BIRCH_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkStrippedBirchCampfireBlockEntity>> PINK_STRIPPED_BIRCH_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_stripped_birch_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkStrippedBirchCampfireBlockEntity::new,
+                        ModBlocks.PINK_STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkStrippedBirchDarkCampfireBlockEntity>> PINK_STRIPPED_BIRCH_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_stripped_birch_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkStrippedBirchDarkCampfireBlockEntity::new,
+                        ModBlocks.PINK_STRIPPED_BIRCH_DARK_CAMPFIRE.get()).build(null));
 
     // === BASE VARIANT ===
     public static final RegistryObject<BlockEntityType<BirchCampfireBlockEntity>> BIRCH_CAMPFIRE_BE =

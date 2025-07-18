@@ -2,6 +2,7 @@ package net.chaoticcreations.colorfulcampfires.block.custom;
 
 import net.chaoticcreations.colorfulcampfires.block.entity.ModBlockEntities;
 import net.chaoticcreations.colorfulcampfires.block.entity.OrangeBirchDarkCampfireBlockEntity;
+import net.chaoticcreations.colorfulcampfires.particle.ModParticles;
 import net.minecraft.core.BlockPos;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.Containers;
@@ -93,7 +94,7 @@ public class OrangeBirchDarkCampfireBlock extends CampfireBlock {
             
             if (this.shouldSpawnParticles() && random.nextInt(5) == 0) {
                 for(int i = 0; i < random.nextInt(1) + 1; ++i) {
-                    level.addParticle(ParticleTypes.LAVA, (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, (double)(random.nextFloat() / 2.0F), 5.0E-5D, (double)(random.nextFloat() / 2.0F));
+                    level.addParticle(ModParticles.ORANGE_DARK_FIRE_EMBERS.get(), (double)pos.getX() + 0.5D, (double)pos.getY() + 0.5D, (double)pos.getZ() + 0.5D, (double)(random.nextFloat() / 2.0F), 5.0E-5D, (double)(random.nextFloat() / 2.0F));
                 }
             }
         }

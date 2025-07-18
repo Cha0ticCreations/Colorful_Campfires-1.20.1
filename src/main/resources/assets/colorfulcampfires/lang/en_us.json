@@ -1,19 +1,33 @@
 {
   "item.colorfulcampfires.birch_campfire_item": "Birch Campfire TEST ITEM",
 
-  "block.colorfulcampfires.birch_campfire": "Birch Campfire",
-  "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
-  
-  "block.colorfulcampfires.white_birch_campfire": "White Birch Campfire",
-  "block.colorfulcampfires.white_birch_dark_campfire": "White Darkfire Birch Campfire",
-  
-  "block.colorfulcampfires.orange_birch_campfire": "Orange Birch Campfire",
-  "block.colorfulcampfires.orange_birch_dark_campfire": "Orange Darkfire Birch Campfire",
-  
+  "block.colorfulcampfires.blue_birch_campfire": "Blue Birch Campfire",
+  "block.colorfulcampfires.blue_birch_dark_campfire": "Blue Darkfire Birch Campfire",
+  "block.colorfulcampfires.blue_stripped_birch_campfire": "Blue Stripped Birch Campfire",
+  "block.colorfulcampfires.blue_stripped_birch_dark_campfire": "Blue Stripped Darkfire Birch Campfire",
+
   "block.colorfulcampfires.lime_birch_campfire": "Lime Birch Campfire",
   "block.colorfulcampfires.lime_birch_dark_campfire": "Lime Darkfire Birch Campfire",
   "block.colorfulcampfires.lime_stripped_birch_campfire": "Lime Stripped Birch Campfire",
   "block.colorfulcampfires.lime_stripped_birch_dark_campfire": "Lime Stripped Darkfire Birch Campfire",
+
+  "block.colorfulcampfires.orange_birch_campfire": "Orange Birch Campfire",
+  "block.colorfulcampfires.orange_birch_dark_campfire": "Orange Darkfire Birch Campfire",
+  "block.colorfulcampfires.orange_stripped_birch_campfire": "Orange Stripped Birch Campfire",
+  "block.colorfulcampfires.orange_stripped_birch_dark_campfire": "Orange Stripped Darkfire Birch Campfire",
+
+  "block.colorfulcampfires.pink_birch_campfire": "Pink Birch Campfire",
+  "block.colorfulcampfires.pink_birch_dark_campfire": "Pink Darkfire Birch Campfire",
+  "block.colorfulcampfires.pink_stripped_birch_campfire": "Pink Stripped Birch Campfire",
+  "block.colorfulcampfires.pink_stripped_birch_dark_campfire": "Pink Stripped Darkfire Birch Campfire",
+
+  "block.colorfulcampfires.white_birch_campfire": "White Birch Campfire",
+  "block.colorfulcampfires.white_birch_dark_campfire": "White Darkfire Birch Campfire",
+  "block.colorfulcampfires.white_stripped_birch_campfire": "White Stripped Birch Campfire",
+  "block.colorfulcampfires.white_stripped_birch_dark_campfire": "White Stripped Darkfire Birch Campfire",
+
+  "block.colorfulcampfires.birch_campfire": "Birch Campfire",
+  "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
 
   "creativetab.colorful_campfires_tab": "Colorful Campfires"
 }
