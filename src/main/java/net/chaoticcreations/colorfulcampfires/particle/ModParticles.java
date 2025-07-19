@@ -30,6 +30,12 @@ public class ModParticles {
     public static final RegistryObject<SimpleParticleType> BLUE_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("blue_dark_fire_embers", () -> new SimpleParticleType(true));
 
+    // Gray
+    public static final RegistryObject<SimpleParticleType> GRAY_FIRE_EMBERS =
+            PARTICLE_TYPES.register("gray_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> GRAY_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("gray_dark_fire_embers", () -> new SimpleParticleType(true));
+
     // Lime
     public static final RegistryObject<SimpleParticleType> LIME_FIRE_EMBERS =
             PARTICLE_TYPES.register("lime_fire_embers", () -> new SimpleParticleType(true));

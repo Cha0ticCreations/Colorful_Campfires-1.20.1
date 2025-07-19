@@ -98,6 +98,10 @@ public class ColorfulCampfires
             event.registerSpriteSet(ModParticles.BLUE_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
             event.registerSpriteSet(ModParticles.BLUE_DARK_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
 
+            // Gray
+            event.registerSpriteSet(ModParticles.GRAY_FIRE_EMBERS.get(), GrayFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.GRAY_DARK_FIRE_EMBERS.get(), GrayFireEmberParticles.Provider::new);
+
             // Lime
             event.registerSpriteSet(ModParticles.LIME_FIRE_EMBERS.get(), LimeFireEmberParticles.Provider::new);
             event.registerSpriteSet(ModParticles.LIME_DARK_FIRE_EMBERS.get(), LimeFireEmberParticles.Provider::new);
@@ -113,6 +117,7 @@ public class ColorfulCampfires
             // White
             event.registerSpriteSet(ModParticles.WHITE_FIRE_EMBERS.get(), WhiteFireEmberParticles.Provider::new);
             event.registerSpriteSet(ModParticles.WHITE_DARK_FIRE_EMBERS.get(), WhiteFireEmberParticles.Provider::new);
+
         }
     }
 }

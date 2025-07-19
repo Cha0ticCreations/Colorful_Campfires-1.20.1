@@ -29,6 +29,10 @@ import net.chaoticcreations.colorfulcampfires.block.custom.BlackBirchCampfireBlo
 import net.chaoticcreations.colorfulcampfires.block.custom.BlackBirchDarkCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.BlackStrippedBirchCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.BlackStrippedBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayBirchCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayBirchDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayStrippedBirchCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayStrippedBirchDarkCampfireBlock;
 
 
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
@@ -90,6 +94,16 @@ public class ModBlocks {
     public static final RegistryObject<BlueStrippedBirchDarkCampfireBlock> BLUE_STRIPPED_BIRCH_DARK_CAMPFIRE = registerBlock("blue_stripped_birch_dark_campfire",
             ()->new BlueStrippedBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
+  // === GRAY VARIANTS ===
+    public static final RegistryObject<GrayBirchCampfireBlock> GRAY_BIRCH_CAMPFIRE = registerBlock("gray_birch_campfire",
+            ()->new GrayBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayBirchDarkCampfireBlock> GRAY_BIRCH_DARK_CAMPFIRE = registerBlock("gray_birch_dark_campfire",
+            ()->new GrayBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedBirchCampfireBlock> GRAY_STRIPPED_BIRCH_CAMPFIRE = registerBlock("gray_stripped_birch_campfire",
+            ()->new GrayStrippedBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedBirchDarkCampfireBlock> GRAY_STRIPPED_BIRCH_DARK_CAMPFIRE = registerBlock("gray_stripped_birch_dark_campfire",
+            ()->new GrayStrippedBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
     // === LIME VARIANTS ===
     public static final RegistryObject<LimeBirchCampfireBlock> LIME_BIRCH_CAMPFIRE = registerBlock("lime_birch_campfire",
             ()->new LimeBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
@@ -130,6 +144,7 @@ public class ModBlocks {
     public static final RegistryObject<WhiteStrippedBirchDarkCampfireBlock> WHITE_STRIPPED_BIRCH_DARK_CAMPFIRE = registerBlock("white_stripped_birch_dark_campfire",
             ()->new WhiteStrippedBirchDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
+       
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);
