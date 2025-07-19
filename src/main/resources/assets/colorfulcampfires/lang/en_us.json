@@ -1,6 +1,14 @@
 {
   "item.colorfulcampfires.birch_campfire_item": "Birch Campfire TEST ITEM",
 
+  "block.colorfulcampfires.birch_campfire": "Birch Campfire",
+  "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
+
+  "block.colorfulcampfires.black_birch_campfire": "Black Birch Campfire",
+  "block.colorfulcampfires.black_birch_dark_campfire": "Black Darkfire Birch Campfire",
+  "block.colorfulcampfires.black_stripped_birch_campfire": "Black Stripped Birch Campfire",
+  "block.colorfulcampfires.black_stripped_birch_dark_campfire": "Black Stripped Darkfire Birch Campfire",
+
   "block.colorfulcampfires.blue_birch_campfire": "Blue Birch Campfire",
   "block.colorfulcampfires.blue_birch_dark_campfire": "Blue Darkfire Birch Campfire",
   "block.colorfulcampfires.blue_stripped_birch_campfire": "Blue Stripped Birch Campfire",
@@ -25,9 +33,6 @@
   "block.colorfulcampfires.white_birch_dark_campfire": "White Darkfire Birch Campfire",
   "block.colorfulcampfires.white_stripped_birch_campfire": "White Stripped Birch Campfire",
   "block.colorfulcampfires.white_stripped_birch_dark_campfire": "White Stripped Darkfire Birch Campfire",
-
-  "block.colorfulcampfires.birch_campfire": "Birch Campfire",
-  "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
 
   "creativetab.colorful_campfires_tab": "Colorful Campfires"
 }

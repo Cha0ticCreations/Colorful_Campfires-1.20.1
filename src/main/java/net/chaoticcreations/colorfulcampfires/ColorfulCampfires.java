@@ -85,8 +85,15 @@ public class ColorfulCampfires
         @SubscribeEvent
         public static void registerParticleProvider(RegisterParticleProvidersEvent event){
 
-          
             //EMBER PARTICLES (sorted by color)
+
+            // Base (if any)
+            // (No base ember particles defined in provided code)
+
+            // Black
+            event.registerSpriteSet(ModParticles.BLACK_FIRE_EMBERS.get(), BlackFireEmberParticles.Provider::new);
+            event.registerSpriteSet(ModParticles.BLACK_DARK_FIRE_EMBERS.get(), BlackFireEmberParticles.Provider::new);
+
             // Blue
             event.registerSpriteSet(ModParticles.BLUE_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);
             event.registerSpriteSet(ModParticles.BLUE_DARK_FIRE_EMBERS.get(), BlueFireEmberParticles.Provider::new);

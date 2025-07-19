@@ -17,6 +17,13 @@ public class ModParticles {
 
 
     //EMBERS (sorted by color)
+
+    // Black
+    public static final RegistryObject<SimpleParticleType> BLACK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("black_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> BLACK_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("black_dark_fire_embers", () -> new SimpleParticleType(true));
+
     // Blue
     public static final RegistryObject<SimpleParticleType> BLUE_FIRE_EMBERS =
             PARTICLE_TYPES.register("blue_fire_embers", () -> new SimpleParticleType(true));
