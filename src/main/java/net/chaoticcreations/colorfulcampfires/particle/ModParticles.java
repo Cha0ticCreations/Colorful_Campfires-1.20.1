@@ -30,6 +30,12 @@ public class ModParticles {
     public static final RegistryObject<SimpleParticleType> BLUE_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("blue_dark_fire_embers", () -> new SimpleParticleType(true));
 
+    // Brown
+    public static final RegistryObject<SimpleParticleType> BROWN_FIRE_EMBERS =
+            PARTICLE_TYPES.register("brown_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> BROWN_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("brown_dark_fire_embers", () -> new SimpleParticleType(true));
+
     // Cyan
     public static final RegistryObject<SimpleParticleType> CYAN_FIRE_EMBERS =
             PARTICLE_TYPES.register("cyan_fire_embers", () -> new SimpleParticleType(true));
@@ -42,6 +48,18 @@ public class ModParticles {
     public static final RegistryObject<SimpleParticleType> GRAY_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("gray_dark_fire_embers", () -> new SimpleParticleType(true));
 
+    // Green
+    public static final RegistryObject<SimpleParticleType> GREEN_FIRE_EMBERS =
+            PARTICLE_TYPES.register("green_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> GREEN_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("green_dark_fire_embers", () -> new SimpleParticleType(true));
+
+    // Light Blue
+    public static final RegistryObject<SimpleParticleType> LIGHT_BLUE_FIRE_EMBERS =
+            PARTICLE_TYPES.register("light_blue_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> LIGHT_BLUE_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("light_blue_dark_fire_embers", () -> new SimpleParticleType(true));
+
     // Light Gray
     public static final RegistryObject<SimpleParticleType> LIGHT_GRAY_FIRE_EMBERS =
             PARTICLE_TYPES.register("light_gray_fire_embers", () -> new SimpleParticleType(true));
@@ -53,6 +71,12 @@ public class ModParticles {
             PARTICLE_TYPES.register("lime_fire_embers", () -> new SimpleParticleType(true));
     public static final RegistryObject<SimpleParticleType> LIME_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("lime_dark_fire_embers", () -> new SimpleParticleType(true));
+
+    // Magenta
+    public static final RegistryObject<SimpleParticleType> MAGENTA_FIRE_EMBERS =
+            PARTICLE_TYPES.register("magenta_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> MAGENTA_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("magenta_dark_fire_embers", () -> new SimpleParticleType(true));
 
     // Orange
     public static final RegistryObject<SimpleParticleType> ORANGE_FIRE_EMBERS =
@@ -72,11 +96,23 @@ public class ModParticles {
     public static final RegistryObject<SimpleParticleType> PURPLE_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("purple_dark_fire_embers", () -> new SimpleParticleType(true));
 
+    // Red
+    public static final RegistryObject<SimpleParticleType> RED_FIRE_EMBERS =
+            PARTICLE_TYPES.register("red_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> RED_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("red_dark_fire_embers", () -> new SimpleParticleType(true));
+
     // White
     public static final RegistryObject<SimpleParticleType> WHITE_FIRE_EMBERS =
             PARTICLE_TYPES.register("white_fire_embers", () -> new SimpleParticleType(true));
     public static final RegistryObject<SimpleParticleType> WHITE_DARK_FIRE_EMBERS =
             PARTICLE_TYPES.register("white_dark_fire_embers", () -> new SimpleParticleType(true));
+
+    // Yellow
+    public static final RegistryObject<SimpleParticleType> YELLOW_FIRE_EMBERS =
+            PARTICLE_TYPES.register("yellow_fire_embers", () -> new SimpleParticleType(true));
+    public static final RegistryObject<SimpleParticleType> YELLOW_DARK_FIRE_EMBERS =
+            PARTICLE_TYPES.register("yellow_dark_fire_embers", () -> new SimpleParticleType(true));
 
     public static void register(IEventBus eventBus){
         PARTICLE_TYPES.register(eventBus);

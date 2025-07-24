@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DS-",
+    "ScS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:birch_log"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "c": {
+      "item": "colorfulcampfires:light_blue_birch_campfire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:light_blue_stripped_birch_dark_campfire"
+  }
+}
