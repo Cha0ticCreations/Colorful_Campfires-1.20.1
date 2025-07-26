@@ -15,6 +15,16 @@ public class ModBlockEntities {
 
 
     // === BASE VARIANT ===
+    public static final RegistryObject<BlockEntityType<SpruceCampfireBlockEntity>> SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("spruce_campfire_be", () -> {
+                return BlockEntityType.Builder.of(SpruceCampfireBlockEntity::new,
+                        ModBlocks.SPRUCE_CAMPFIRE.get()).build(null);
+            });
+    public static final RegistryObject<BlockEntityType<StrippedSpruceCampfireBlockEntity>> STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(StrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+
     public static final RegistryObject<BlockEntityType<BirchCampfireBlockEntity>> BIRCH_CAMPFIRE_BE =
             BLOCK_ENTITIES.register("birch_campfire_be", () -> {
                 return BlockEntityType.Builder.of(BirchCampfireBlockEntity::new,
@@ -24,6 +34,298 @@ public class ModBlockEntities {
             BLOCK_ENTITIES.register("stripped_birch_campfire_be", () ->
                 BlockEntityType.Builder.of(StrippedBirchCampfireBlockEntity::new,
                         ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get()).build(null));
+
+//SPRUCE CAMPFIRE VARIANTS
+
+// === BLACK VARIANTS ===
+    public static final RegistryObject<BlockEntityType<BlackSpruceCampfireBlockEntity>> BLACK_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("black_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BlackSpruceCampfireBlockEntity::new,
+                        ModBlocks.BLACK_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlackSpruceDarkCampfireBlockEntity>> BLACK_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("black_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BlackSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BLACK_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlackStrippedSpruceCampfireBlockEntity>> BLACK_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("black_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BlackStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.BLACK_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlackStrippedSpruceDarkCampfireBlockEntity>> BLACK_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("black_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BlackStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BLACK_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === BLUE VARIANTS ===
+    public static final RegistryObject<BlockEntityType<BlueSpruceCampfireBlockEntity>> BLUE_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("blue_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BlueSpruceCampfireBlockEntity::new,
+                        ModBlocks.BLUE_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlueSpruceDarkCampfireBlockEntity>> BLUE_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("blue_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BlueSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BLUE_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlueStrippedSpruceCampfireBlockEntity>> BLUE_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("blue_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BlueStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.BLUE_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BlueStrippedSpruceDarkCampfireBlockEntity>> BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("blue_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BlueStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === BROWN VARIANTS ===
+    public static final RegistryObject<BlockEntityType<BrownSpruceCampfireBlockEntity>> BROWN_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("brown_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BrownSpruceCampfireBlockEntity::new,
+                        ModBlocks.BROWN_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BrownSpruceDarkCampfireBlockEntity>> BROWN_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("brown_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BrownSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BROWN_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BrownStrippedSpruceCampfireBlockEntity>> BROWN_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("brown_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(BrownStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.BROWN_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BrownStrippedSpruceDarkCampfireBlockEntity>> BROWN_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("brown_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(BrownStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.BROWN_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === CYAN VARIANTS ===
+    public static final RegistryObject<BlockEntityType<CyanSpruceCampfireBlockEntity>> CYAN_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("cyan_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(CyanSpruceCampfireBlockEntity::new,
+                        ModBlocks.CYAN_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<CyanSpruceDarkCampfireBlockEntity>> CYAN_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("cyan_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(CyanSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.CYAN_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<CyanStrippedSpruceCampfireBlockEntity>> CYAN_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("cyan_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(CyanStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.CYAN_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<CyanStrippedSpruceDarkCampfireBlockEntity>> CYAN_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("cyan_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(CyanStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.CYAN_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+        // === GRAY VARIANTS ===
+        public static final RegistryObject<BlockEntityType<GraySpruceCampfireBlockEntity>> GRAY_SPRUCE_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("gray_spruce_campfire_be", () ->
+                        BlockEntityType.Builder.of(GraySpruceCampfireBlockEntity::new,
+                                ModBlocks.GRAY_SPRUCE_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<GraySpruceDarkCampfireBlockEntity>> GRAY_SPRUCE_DARK_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("gray_spruce_dark_campfire_be", () ->
+                        BlockEntityType.Builder.of(GraySpruceDarkCampfireBlockEntity::new,
+                                ModBlocks.GRAY_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<GrayStrippedSpruceCampfireBlockEntity>> GRAY_STRIPPED_SPRUCE_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("gray_stripped_spruce_campfire_be", () ->        
+                        BlockEntityType.Builder.of(GrayStrippedSpruceCampfireBlockEntity::new,
+                                ModBlocks.GRAY_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<GrayStrippedSpruceDarkCampfireBlockEntity>> GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("gray_stripped_spruce_dark_campfire_be", () ->
+                        BlockEntityType.Builder.of(GrayStrippedSpruceDarkCampfireBlockEntity::new,
+                                ModBlocks.GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === GREEN VARIANTS ===
+    public static final RegistryObject<BlockEntityType<GreenSpruceCampfireBlockEntity>> GREEN_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("green_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(GreenSpruceCampfireBlockEntity::new,
+                        ModBlocks.GREEN_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<GreenSpruceDarkCampfireBlockEntity>> GREEN_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("green_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(GreenSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.GREEN_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<GreenStrippedSpruceCampfireBlockEntity>> GREEN_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("green_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(GreenStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.GREEN_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<GreenStrippedSpruceDarkCampfireBlockEntity>> GREEN_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("green_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(GreenStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.GREEN_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === LIGHT BLUE VARIANTS ===
+    public static final RegistryObject<BlockEntityType<LightBlueSpruceCampfireBlockEntity>> LIGHT_BLUE_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("light_blue_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(LightBlueSpruceCampfireBlockEntity::new,
+                        ModBlocks.LIGHT_BLUE_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LightBlueSpruceDarkCampfireBlockEntity>> LIGHT_BLUE_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("light_blue_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(LightBlueSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.LIGHT_BLUE_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LightBlueStrippedSpruceCampfireBlockEntity>> LIGHT_BLUE_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("light_blue_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(LightBlueStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.LIGHT_BLUE_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LightBlueStrippedSpruceDarkCampfireBlockEntity>> LIGHT_BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("light_blue_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(LightBlueStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.LIGHT_BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === LIGHT GRAY VARIANTS ===
+        public static final RegistryObject<BlockEntityType<LightGraySpruceCampfireBlockEntity>> LIGHT_GRAY_SPRUCE_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("light_gray_spruce_campfire_be", () ->
+                        BlockEntityType.Builder.of(LightGraySpruceCampfireBlockEntity::new,
+                                ModBlocks.LIGHT_GRAY_SPRUCE_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<LightGraySpruceDarkCampfireBlockEntity>> LIGHT_GRAY_SPRUCE_DARK_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("light_gray_spruce_dark_campfire_be", () ->
+                        BlockEntityType.Builder.of(LightGraySpruceDarkCampfireBlockEntity::new,
+                                ModBlocks.LIGHT_GRAY_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<LightGrayStrippedSpruceCampfireBlockEntity>> LIGHT_GRAY_STRIPPED_SPRUCE_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("light_gray_stripped_spruce_campfire_be", () ->
+                        BlockEntityType.Builder.of(LightGrayStrippedSpruceCampfireBlockEntity::new,
+                                ModBlocks.LIGHT_GRAY_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+        public static final RegistryObject<BlockEntityType<LightGrayStrippedSpruceDarkCampfireBlockEntity>> LIGHT_GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+                BLOCK_ENTITIES.register("light_gray_stripped_spruce_dark_campfire_be", () ->
+                        BlockEntityType.Builder.of(LightGrayStrippedSpruceDarkCampfireBlockEntity::new,
+                                ModBlocks.LIGHT_GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === LIME VARIANTS ===
+    public static final RegistryObject<BlockEntityType<LimeSpruceCampfireBlockEntity>> LIME_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeSpruceCampfireBlockEntity::new,
+                        ModBlocks.LIME_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LimeSpruceDarkCampfireBlockEntity>> LIME_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.LIME_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LimeStrippedSpruceCampfireBlockEntity>> LIME_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.LIME_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<LimeStrippedSpruceDarkCampfireBlockEntity>> LIME_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("lime_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(LimeStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.LIME_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === MAGENTA VARIANTS ===
+    public static final RegistryObject<BlockEntityType<MagentaSpruceCampfireBlockEntity>> MAGENTA_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("magenta_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(MagentaSpruceCampfireBlockEntity::new,
+                        ModBlocks.MAGENTA_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<MagentaSpruceDarkCampfireBlockEntity>> MAGENTA_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("magenta_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(MagentaSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.MAGENTA_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<MagentaStrippedSpruceCampfireBlockEntity>> MAGENTA_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("magenta_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(MagentaStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.MAGENTA_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<MagentaStrippedSpruceDarkCampfireBlockEntity>> MAGENTA_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("magenta_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(MagentaStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.MAGENTA_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === ORANGE VARIANTS ===
+    public static final RegistryObject<BlockEntityType<OrangeSpruceCampfireBlockEntity>> ORANGE_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeSpruceCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<OrangeSpruceDarkCampfireBlockEntity>> ORANGE_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<OrangeStrippedSpruceCampfireBlockEntity>> ORANGE_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<OrangeStrippedSpruceDarkCampfireBlockEntity>> ORANGE_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("orange_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(OrangeStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.ORANGE_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === PINK VARIANTS ===
+    public static final RegistryObject<BlockEntityType<PinkSpruceCampfireBlockEntity>> PINK_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkSpruceCampfireBlockEntity::new,
+                        ModBlocks.PINK_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkSpruceDarkCampfireBlockEntity>> PINK_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.PINK_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkStrippedSpruceCampfireBlockEntity>> PINK_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.PINK_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PinkStrippedSpruceDarkCampfireBlockEntity>> PINK_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("pink_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PinkStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.PINK_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === PURPLE VARIANTS ===
+    public static final RegistryObject<BlockEntityType<PurpleSpruceCampfireBlockEntity>> PURPLE_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("purple_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(PurpleSpruceCampfireBlockEntity::new,
+                        ModBlocks.PURPLE_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PurpleSpruceDarkCampfireBlockEntity>> PURPLE_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("purple_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PurpleSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.PURPLE_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PurpleStrippedSpruceCampfireBlockEntity>> PURPLE_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("purple_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(PurpleStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.PURPLE_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<PurpleStrippedSpruceDarkCampfireBlockEntity>> PURPLE_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("purple_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(PurpleStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.PURPLE_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === RED VARIANTS ===
+    public static final RegistryObject<BlockEntityType<RedSpruceCampfireBlockEntity>> RED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("red_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(RedSpruceCampfireBlockEntity::new,
+                        ModBlocks.RED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<RedSpruceDarkCampfireBlockEntity>> RED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("red_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(RedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.RED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<RedStrippedSpruceCampfireBlockEntity>> RED_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("red_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(RedStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.RED_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<RedStrippedSpruceDarkCampfireBlockEntity>> RED_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("red_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(RedStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.RED_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === WHITE VARIANTS ===
+    public static final RegistryObject<BlockEntityType<WhiteSpruceCampfireBlockEntity>> WHITE_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteSpruceCampfireBlockEntity::new,
+                        ModBlocks.WHITE_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<WhiteSpruceDarkCampfireBlockEntity>> WHITE_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.WHITE_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<WhiteStrippedSpruceCampfireBlockEntity>> WHITE_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.WHITE_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<WhiteStrippedSpruceDarkCampfireBlockEntity>> WHITE_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("white_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(WhiteStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.WHITE_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+    // === YELLOW VARIANTS ===
+    public static final RegistryObject<BlockEntityType<YellowSpruceCampfireBlockEntity>> YELLOW_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("yellow_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(YellowSpruceCampfireBlockEntity::new,
+                        ModBlocks.YELLOW_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<YellowSpruceDarkCampfireBlockEntity>> YELLOW_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("yellow_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(YellowSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.YELLOW_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<YellowStrippedSpruceCampfireBlockEntity>> YELLOW_STRIPPED_SPRUCE_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("yellow_stripped_spruce_campfire_be", () ->
+                BlockEntityType.Builder.of(YellowStrippedSpruceCampfireBlockEntity::new,
+                        ModBlocks.YELLOW_STRIPPED_SPRUCE_CAMPFIRE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<YellowStrippedSpruceDarkCampfireBlockEntity>> YELLOW_STRIPPED_SPRUCE_DARK_CAMPFIRE_BE =
+            BLOCK_ENTITIES.register("yellow_stripped_spruce_dark_campfire_be", () ->
+                BlockEntityType.Builder.of(YellowStrippedSpruceDarkCampfireBlockEntity::new,
+                        ModBlocks.YELLOW_STRIPPED_SPRUCE_DARK_CAMPFIRE.get()).build(null));
+
+//BIRCH CAMPFIRE VARIANTS                        
 
     // === BLACK VARIANTS ===
     public static final RegistryObject<BlockEntityType<BlackBirchCampfireBlockEntity>> BLACK_BIRCH_CAMPFIRE_BE =

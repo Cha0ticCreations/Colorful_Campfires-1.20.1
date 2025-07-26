@@ -1,6 +1,8 @@
 {
   "item.colorfulcampfires.birch_campfire_item": "Birch Campfire TEST ITEM",
 
+  "block.colorfulcampfires.spruce_campfire": "Spruce Campfire",
+  "block.colorfulcampfires.stripped_spruce_campfire": "Stripped Spruce Campfire",
   "block.colorfulcampfires.birch_campfire": "Birch Campfire",
   "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
 
@@ -83,6 +85,86 @@
   "block.colorfulcampfires.yellow_birch_dark_campfire": "Yellow Darkfire Birch Campfire",
   "block.colorfulcampfires.yellow_stripped_birch_campfire": "Yellow Stripped Birch Campfire",
   "block.colorfulcampfires.yellow_stripped_birch_dark_campfire": "Yellow Stripped Darkfire Birch Campfire",
+  
+  "block.colorfulcampfires.black_spruce_campfire": "Black Spruce Campfire",
+  "block.colorfulcampfires.black_spruce_dark_campfire": "Black Darkfire Spruce Campfire",
+  "block.colorfulcampfires.black_stripped_spruce_campfire": "Black Stripped Spruce Campfire",
+  "block.colorfulcampfires.black_stripped_spruce_dark_campfire": "Black Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.blue_spruce_campfire": "Blue Spruce Campfire",
+  "block.colorfulcampfires.blue_spruce_dark_campfire": "Blue Darkfire Spruce Campfire",
+  "block.colorfulcampfires.blue_stripped_spruce_campfire": "Blue Stripped Spruce Campfire",
+  "block.colorfulcampfires.blue_stripped_spruce_dark_campfire": "Blue Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.brown_spruce_campfire": "Brown Spruce Campfire",
+  "block.colorfulcampfires.brown_spruce_dark_campfire": "Brown Darkfire Spruce Campfire",
+  "block.colorfulcampfires.brown_stripped_spruce_campfire": "Brown Stripped Spruce Campfire",
+  "block.colorfulcampfires.brown_stripped_spruce_dark_campfire": "Brown Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.cyan_spruce_campfire": "Cyan Spruce Campfire",
+  "block.colorfulcampfires.cyan_spruce_dark_campfire": "Cyan Darkfire Spruce Campfire",
+  "block.colorfulcampfires.cyan_stripped_spruce_campfire": "Cyan Stripped Spruce Campfire",
+  "block.colorfulcampfires.cyan_stripped_spruce_dark_campfire": "Cyan Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.gray_spruce_campfire": "Gray Spruce Campfire",
+  "block.colorfulcampfires.gray_spruce_dark_campfire": "Gray Darkfire Spruce Campfire",
+  "block.colorfulcampfires.gray_stripped_spruce_campfire": "Gray Stripped Spruce Campfire",
+  "block.colorfulcampfires.gray_stripped_spruce_dark_campfire": "Gray Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.green_spruce_campfire": "Green Spruce Campfire",
+  "block.colorfulcampfires.green_spruce_dark_campfire": "Green Darkfire Spruce Campfire",
+  "block.colorfulcampfires.green_stripped_spruce_campfire": "Green Stripped Spruce Campfire",
+  "block.colorfulcampfires.green_stripped_spruce_dark_campfire": "Green Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.light_blue_spruce_campfire": "Light Blue Spruce Campfire",
+  "block.colorfulcampfires.light_blue_spruce_dark_campfire": "Light Blue Darkfire Spruce Campfire",
+  "block.colorfulcampfires.light_blue_stripped_spruce_campfire": "Light Blue Stripped Spruce Campfire",
+  "block.colorfulcampfires.light_blue_stripped_spruce_dark_campfire": "Light Blue Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.light_gray_spruce_campfire": "Light Gray Spruce Campfire",
+  "block.colorfulcampfires.light_gray_spruce_dark_campfire": "Light Gray Darkfire Spruce Campfire",
+  "block.colorfulcampfires.light_gray_stripped_spruce_campfire": "Light Gray Stripped Spruce Campfire",
+  "block.colorfulcampfires.light_gray_stripped_spruce_dark_campfire": "Light Gray Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.lime_spruce_campfire": "Lime Spruce Campfire",
+  "block.colorfulcampfires.lime_spruce_dark_campfire": "Lime Darkfire Spruce Campfire",
+  "block.colorfulcampfires.lime_stripped_spruce_campfire": "Lime Stripped Spruce Campfire",
+  "block.colorfulcampfires.lime_stripped_spruce_dark_campfire": "Lime Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.magenta_spruce_campfire":"Magenta Spruce Campfire",
+  "block.colorfulcampfires.magenta_spruce_dark_campfire": "Magenta Darkfire Spruce Campfire",
+  "block.colorfulcampfires.magenta_stripped_spruce_campfire": "Magenta Stripped Spruce Campfire",
+  "block.colorfulcampfires.magenta_stripped_spruce_dark_campfire": "Magenta Stripped Darkfire Spruce Campfire",
+  
+  "block.colorfulcampfires.orange_spruce_campfire": "Orange Spruce Campfire",
+  "block.colorfulcampfires.orange_spruce_dark_campfire": "Orange Darkfire Spruce Campfire",
+  "block.colorfulcampfires.orange_stripped_spruce_campfire": "Orange Stripped Spruce Campfire",
+  "block.colorfulcampfires.orange_stripped_spruce_dark_campfire": "Orange Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.pink_spruce_campfire": "Pink Spruce Campfire",
+  "block.colorfulcampfires.pink_spruce_dark_campfire": "Pink Darkfire Spruce Campfire",
+  "block.colorfulcampfires.pink_stripped_spruce_campfire": "Pink Stripped Spruce Campfire",
+  "block.colorfulcampfires.pink_stripped_spruce_dark_campfire": "Pink Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.purple_spruce_campfire": "Purple Spruce Campfire",
+  "block.colorfulcampfires.purple_spruce_dark_campfire": "Purple Darkfire Spruce Campfire",
+  "block.colorfulcampfires.purple_stripped_spruce_campfire": "Purple Stripped Spruce Campfire",
+  "block.colorfulcampfires.purple_stripped_spruce_dark_campfire": "Purple Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.red_spruce_campfire": "Red Spruce Campfire",
+  "block.colorfulcampfires.red_spruce_dark_campfire": "Red Darkfire Spruce Campfire",
+  "block.colorfulcampfires.red_stripped_spruce_campfire": "Red Stripped Spruce Campfire",
+  "block.colorfulcampfires.red_stripped_spruce_dark_campfire": "Red Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.white_spruce_campfire": "White Spruce Campfire",
+  "block.colorfulcampfires.white_spruce_dark_campfire": "White Darkfire Spruce Campfire",
+  "block.colorfulcampfires.white_stripped_spruce_campfire": "White Stripped Spruce Campfire",
+  "block.colorfulcampfires.white_stripped_spruce_dark_campfire": "White Stripped Darkfire Spruce Campfire",
+
+  "block.colorfulcampfires.yellow_spruce_campfire": "Yellow Spruce Campfire",
+  "block.colorfulcampfires.yellow_spruce_dark_campfire": "Yellow Darkfire Spruce Campfire",
+  "block.colorfulcampfires.yellow_stripped_spruce_campfire": "Yellow Stripped Spruce Campfire",
+  "block.colorfulcampfires.yellow_stripped_spruce_dark_campfire": "Yellow Stripped Darkfire Spruce Campfire",
 
   "creativetab.colorful_campfires_tab": "Colorful Campfires"
 }

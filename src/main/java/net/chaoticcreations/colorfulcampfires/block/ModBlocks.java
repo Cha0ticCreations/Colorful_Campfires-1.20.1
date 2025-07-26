@@ -3,6 +3,76 @@ package net.chaoticcreations.colorfulcampfires.block;
 import net.chaoticcreations.colorfulcampfires.ColorfulCampfires;
 
 //import net.chaoticcreations.colorfulcampfires.block.custom.ModCampfireBlock;
+
+//Spruce Campfire Imports
+import net.chaoticcreations.colorfulcampfires.block.custom.SpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.StrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.WhiteSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.WhiteSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.OrangeSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.OrangeSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LimeStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.WhiteStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.WhiteStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.OrangeStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.OrangeStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlueSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlueSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlueStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlueStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PinkStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlackSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlackSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlackStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BlackStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GraySpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GraySpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GrayStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightGraySpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightGraySpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightGrayStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightGrayStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PurpleSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PurpleSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PurpleStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.PurpleStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.CyanSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.CyanSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.CyanStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.CyanStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BrownSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BrownSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BrownStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.BrownStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GreenSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GreenSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GreenStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.GreenStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.RedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.RedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.RedStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.RedStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.YellowSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.YellowSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.YellowStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.YellowStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightBlueSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightBlueSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightBlueStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.LightBlueStrippedSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.MagentaSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.MagentaSpruceDarkCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.MagentaStrippedSpruceCampfireBlock;
+import net.chaoticcreations.colorfulcampfires.block.custom.MagentaStrippedSpruceDarkCampfireBlock;
+
+//Birch Campfire Imports
 import net.chaoticcreations.colorfulcampfires.block.custom.BirchCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.WhiteBirchCampfireBlock;
 import net.chaoticcreations.colorfulcampfires.block.custom.WhiteBirchDarkCampfireBlock;
@@ -71,6 +141,7 @@ import net.chaoticcreations.colorfulcampfires.block.custom.MagentaStrippedBirchC
 import net.chaoticcreations.colorfulcampfires.block.custom.MagentaStrippedBirchDarkCampfireBlock;
 
 
+
 import net.chaoticcreations.colorfulcampfires.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -105,10 +176,179 @@ public class ModBlocks {
 
 
     // === BASE VARIANTS ===
+    public static final RegistryObject<SpruceCampfireBlock> SPRUCE_CAMPFIRE = registerBlock("spruce_campfire",
+            ()->new SpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<StrippedSpruceCampfireBlock> STRIPPED_SPRUCE_CAMPFIRE = registerBlock("stripped_spruce_campfire",
+            ()->new StrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
     public static final RegistryObject<BirchCampfireBlock> BIRCH_CAMPFIRE = registerBlock("birch_campfire",
             ()->new BirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
     public static final RegistryObject<StrippedBirchCampfireBlock> STRIPPED_BIRCH_CAMPFIRE = registerBlock("stripped_birch_campfire",
             ()->new StrippedBirchCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+
+//SPRUCE CAMPFIRE VARIANTS
+
+ // === BLACK VARIANTS ===
+    public static final RegistryObject<BlackSpruceCampfireBlock> BLACK_SPRUCE_CAMPFIRE = registerBlock("black_spruce_campfire",
+            ()->new BlackSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackSpruceDarkCampfireBlock> BLACK_SPRUCE_DARK_CAMPFIRE = registerBlock("black_spruce_dark_campfire",
+            ()->new BlackSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackStrippedSpruceCampfireBlock> BLACK_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("black_stripped_spruce_campfire",
+            ()->new BlackStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackStrippedSpruceDarkCampfireBlock> BLACK_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("black_stripped_spruce_dark_campfire",
+            ()->new BlackStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === BLUE VARIANTS ===
+    public static final RegistryObject<BlueSpruceCampfireBlock> BLUE_SPRUCE_CAMPFIRE = registerBlock("blue_spruce_campfire",
+            ()->new BlueSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueSpruceDarkCampfireBlock> BLUE_SPRUCE_DARK_CAMPFIRE = registerBlock("blue_spruce_dark_campfire",
+            ()->new BlueSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueStrippedSpruceCampfireBlock> BLUE_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("blue_stripped_spruce_campfire",
+            ()->new BlueStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueStrippedSpruceDarkCampfireBlock> BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("blue_stripped_spruce_dark_campfire",
+            ()->new BlueStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === BROWN VARIANTS ===
+    public static final RegistryObject<BrownSpruceCampfireBlock> BROWN_SPRUCE_CAMPFIRE = registerBlock("brown_spruce_campfire",
+            ()->new BrownSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownSpruceDarkCampfireBlock> BROWN_SPRUCE_DARK_CAMPFIRE = registerBlock("brown_spruce_dark_campfire",
+            ()->new BrownSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownStrippedSpruceCampfireBlock> BROWN_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("brown_stripped_spruce_campfire",
+            ()->new BrownStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownStrippedSpruceDarkCampfireBlock> BROWN_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("brown_stripped_spruce_dark_campfire",
+            ()->new BrownStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+
+    // === CYAN VARIANTS ===
+    public static final RegistryObject<CyanSpruceCampfireBlock> CYAN_SPRUCE_CAMPFIRE = registerBlock("cyan_spruce_campfire",
+            ()->new CyanSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanSpruceDarkCampfireBlock> CYAN_SPRUCE_DARK_CAMPFIRE = registerBlock("cyan_spruce_dark_campfire",
+            ()->new CyanSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanStrippedSpruceCampfireBlock> CYAN_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("cyan_stripped_spruce_campfire",
+            ()->new CyanStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanStrippedSpruceDarkCampfireBlock> CYAN_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("cyan_stripped_spruce_dark_campfire",
+            ()->new CyanStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+  // === GRAY VARIANTS ===
+    public static final RegistryObject<GraySpruceCampfireBlock> GRAY_SPRUCE_CAMPFIRE = registerBlock("gray_spruce_campfire",
+            ()->new GraySpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GraySpruceDarkCampfireBlock> GRAY_SPRUCE_DARK_CAMPFIRE = registerBlock("gray_spruce_dark_campfire",
+            ()->new GraySpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedSpruceCampfireBlock> GRAY_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("gray_stripped_spruce_campfire",
+            ()->new GrayStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedSpruceDarkCampfireBlock> GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("gray_stripped_spruce_dark_campfire",
+            ()->new GrayStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === GREEN VARIANTS ===
+    public static final RegistryObject<GreenSpruceCampfireBlock> GREEN_SPRUCE_CAMPFIRE = registerBlock("green_spruce_campfire",
+            ()->new GreenSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenSpruceDarkCampfireBlock> GREEN_SPRUCE_DARK_CAMPFIRE = registerBlock("green_spruce_dark_campfire",
+            ()->new GreenSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenStrippedSpruceCampfireBlock> GREEN_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("green_stripped_spruce_campfire",
+            ()->new GreenStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenStrippedSpruceDarkCampfireBlock> GREEN_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("green_stripped_spruce_dark_campfire",
+            ()->new GreenStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === LIGHT BLUE VARIANTS ===
+    public static final RegistryObject<LightBlueSpruceCampfireBlock> LIGHT_BLUE_SPRUCE_CAMPFIRE = registerBlock("light_blue_spruce_campfire",
+            ()->new LightBlueSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueSpruceDarkCampfireBlock> LIGHT_BLUE_SPRUCE_DARK_CAMPFIRE = registerBlock("light_blue_spruce_dark_campfire",
+            ()->new LightBlueSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueStrippedSpruceCampfireBlock> LIGHT_BLUE_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("light_blue_stripped_spruce_campfire",
+            ()->new LightBlueStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueStrippedSpruceDarkCampfireBlock> LIGHT_BLUE_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("light_blue_stripped_spruce_dark_campfire",
+            ()->new LightBlueStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+
+    // === LIGHT GRAY VARIANTS ===
+    public static final RegistryObject<LightGraySpruceCampfireBlock> LIGHT_GRAY_SPRUCE_CAMPFIRE = registerBlock("light_gray_spruce_campfire",
+            ()->new LightGraySpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightGraySpruceDarkCampfireBlock> LIGHT_GRAY_SPRUCE_DARK_CAMPFIRE = registerBlock("light_gray_spruce_dark_campfire",
+            ()->new LightGraySpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+        public static final RegistryObject<LightGrayStrippedSpruceCampfireBlock> LIGHT_GRAY_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("light_gray_stripped_spruce_campfire",
+                ()->new LightGrayStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+        public static final RegistryObject<LightGrayStrippedSpruceDarkCampfireBlock> LIGHT_GRAY_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("light_gray_stripped_spruce_dark_campfire",
+                ()->new LightGrayStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === LIME VARIANTS ===
+    public static final RegistryObject<LimeSpruceCampfireBlock> LIME_SPRUCE_CAMPFIRE = registerBlock("lime_spruce_campfire",
+            ()->new LimeSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeSpruceDarkCampfireBlock> LIME_SPRUCE_DARK_CAMPFIRE = registerBlock("lime_spruce_dark_campfire",
+            ()->new LimeSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeStrippedSpruceCampfireBlock> LIME_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("lime_stripped_spruce_campfire",
+            ()->new LimeStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeStrippedSpruceDarkCampfireBlock> LIME_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("lime_stripped_spruce_dark_campfire",
+            ()->new LimeStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === MAGENTA VARIANTS ===
+    public static final RegistryObject<MagentaSpruceCampfireBlock> MAGENTA_SPRUCE_CAMPFIRE = registerBlock("magenta_spruce_campfire",
+            ()->new MagentaSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaSpruceDarkCampfireBlock> MAGENTA_SPRUCE_DARK_CAMPFIRE = registerBlock("magenta_spruce_dark_campfire",
+            ()->new MagentaSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaStrippedSpruceCampfireBlock> MAGENTA_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("magenta_stripped_spruce_campfire",
+            ()->new MagentaStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaStrippedSpruceDarkCampfireBlock> MAGENTA_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("magenta_stripped_spruce_dark_campfire",
+            ()->new MagentaStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === ORANGE VARIANTS ===
+    public static final RegistryObject<OrangeSpruceCampfireBlock> ORANGE_SPRUCE_CAMPFIRE = registerBlock("orange_spruce_campfire",
+            ()->new OrangeSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeSpruceDarkCampfireBlock> ORANGE_SPRUCE_DARK_CAMPFIRE = registerBlock("orange_spruce_dark_campfire",
+            ()->new OrangeSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeStrippedSpruceCampfireBlock> ORANGE_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("orange_stripped_spruce_campfire",
+            ()->new OrangeStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeStrippedSpruceDarkCampfireBlock> ORANGE_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("orange_stripped_spruce_dark_campfire",
+            ()->new OrangeStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === PINK VARIANTS ===
+    public static final RegistryObject<PinkSpruceCampfireBlock> PINK_SPRUCE_CAMPFIRE = registerBlock("pink_spruce_campfire",
+            ()->new PinkSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkSpruceDarkCampfireBlock> PINK_SPRUCE_DARK_CAMPFIRE = registerBlock("pink_spruce_dark_campfire",
+            ()->new PinkSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedSpruceCampfireBlock> PINK_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("pink_stripped_spruce_campfire",
+            ()->new PinkStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedSpruceDarkCampfireBlock> PINK_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("pink_stripped_spruce_dark_campfire",
+            ()->new PinkStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === PURPLE VARIANTS ===
+    public static final RegistryObject<PurpleSpruceCampfireBlock> PURPLE_SPRUCE_CAMPFIRE = registerBlock("purple_spruce_campfire",
+            ()->new PurpleSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleSpruceDarkCampfireBlock> PURPLE_SPRUCE_DARK_CAMPFIRE = registerBlock("purple_spruce_dark_campfire",
+            ()->new PurpleSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleStrippedSpruceCampfireBlock> PURPLE_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("purple_stripped_spruce_campfire",
+            ()->new PurpleStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleStrippedSpruceDarkCampfireBlock> PURPLE_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("purple_stripped_spruce_dark_campfire",
+            ()->new PurpleStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === RED VARIANTS ===
+    public static final RegistryObject<RedSpruceCampfireBlock> RED_SPRUCE_CAMPFIRE = registerBlock("red_spruce_campfire",
+            ()->new RedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedSpruceDarkCampfireBlock> RED_SPRUCE_DARK_CAMPFIRE = registerBlock("red_spruce_dark_campfire",
+            ()->new RedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedStrippedSpruceCampfireBlock> RED_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("red_stripped_spruce_campfire",
+            ()->new RedStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedStrippedSpruceDarkCampfireBlock> RED_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("red_stripped_spruce_dark_campfire",
+            ()->new RedStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === WHITE VARIANTS ===
+    public static final RegistryObject<WhiteSpruceCampfireBlock> WHITE_SPRUCE_CAMPFIRE = registerBlock("white_spruce_campfire",
+            ()->new WhiteSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteSpruceDarkCampfireBlock> WHITE_SPRUCE_DARK_CAMPFIRE = registerBlock("white_spruce_dark_campfire",
+            ()->new WhiteSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteStrippedSpruceCampfireBlock> WHITE_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("white_stripped_spruce_campfire",
+            ()->new WhiteStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteStrippedSpruceDarkCampfireBlock> WHITE_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("white_stripped_spruce_dark_campfire",
+            ()->new WhiteStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === YELLOW VARIANTS ===
+    public static final RegistryObject<YellowSpruceCampfireBlock> YELLOW_SPRUCE_CAMPFIRE = registerBlock("yellow_spruce_campfire",
+            ()->new YellowSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowSpruceDarkCampfireBlock> YELLOW_SPRUCE_DARK_CAMPFIRE = registerBlock("yellow_spruce_dark_campfire",
+            ()->new YellowSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowStrippedSpruceCampfireBlock> YELLOW_STRIPPED_SPRUCE_CAMPFIRE = registerBlock("yellow_stripped_spruce_campfire",
+            ()->new YellowStrippedSpruceCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowStrippedSpruceDarkCampfireBlock> YELLOW_STRIPPED_SPRUCE_DARK_CAMPFIRE = registerBlock("yellow_stripped_spruce_dark_campfire",
+            ()->new YellowStrippedSpruceDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
 // BIRCH CAMPFIRE VARIANTS
 

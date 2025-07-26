@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "colorfulcampfires:brown_stripped_spruce_dark_campfire"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "colorfulcampfires:blocks/brown_stripped_spruce_dark_campfire"
+}
