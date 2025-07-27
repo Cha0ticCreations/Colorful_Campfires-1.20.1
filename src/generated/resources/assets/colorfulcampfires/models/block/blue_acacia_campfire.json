@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/template_campfire",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "fire": "colorfulcampfires:block/campfire_blue_fire",
+    "lit_log": "colorfulcampfires:block/blue_acacia_campfire_log_lit",
+    "log": "colorfulcampfires:block/acacia_campfire_log",
+    "particle": "colorfulcampfires:block/blue_acacia_campfire_log_lit"
+  }
+}

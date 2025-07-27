@@ -5,6 +5,8 @@
   "block.colorfulcampfires.stripped_spruce_campfire": "Stripped Spruce Campfire",
   "block.colorfulcampfires.birch_campfire": "Birch Campfire",
   "block.colorfulcampfires.stripped_birch_campfire": "Stripped Birch Campfire",
+  "block.colorfulcampfires.acacia_campfire": "Acacia Campfire",
+  "block.colorfulcampfires.stripped_acacia_campfire": "Stripped Acacia Campfire",
 
   "block.colorfulcampfires.black_birch_campfire": "Black Birch Campfire",
   "block.colorfulcampfires.black_birch_dark_campfire": "Black Darkfire Birch Campfire",
@@ -165,6 +167,86 @@
   "block.colorfulcampfires.yellow_spruce_dark_campfire": "Yellow Darkfire Spruce Campfire",
   "block.colorfulcampfires.yellow_stripped_spruce_campfire": "Yellow Stripped Spruce Campfire",
   "block.colorfulcampfires.yellow_stripped_spruce_dark_campfire": "Yellow Stripped Darkfire Spruce Campfire",
+  
+  "block.colorfulcampfires.black_acacia_campfire": "Black Acacia Campfire",
+  "block.colorfulcampfires.black_acacia_dark_campfire": "Black Darkfire Acacia Campfire",
+  "block.colorfulcampfires.black_stripped_acacia_campfire": "Black Stripped Acacia Campfire",
+  "block.colorfulcampfires.black_stripped_acacia_dark_campfire": "Black Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.blue_acacia_campfire": "Blue Acacia Campfire",
+  "block.colorfulcampfires.blue_acacia_dark_campfire": "Blue Darkfire Acacia Campfire",
+  "block.colorfulcampfires.blue_stripped_acacia_campfire": "Blue Stripped Acacia Campfire",
+  "block.colorfulcampfires.blue_stripped_acacia_dark_campfire": "Blue Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.brown_acacia_campfire": "Brown Acacia Campfire",
+  "block.colorfulcampfires.brown_acacia_dark_campfire": "Brown Darkfire Acacia Campfire",
+  "block.colorfulcampfires.brown_stripped_acacia_campfire": "Brown Stripped Acacia Campfire",
+  "block.colorfulcampfires.brown_stripped_acacia_dark_campfire": "Brown Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.cyan_acacia_campfire": "Cyan Acacia Campfire",
+  "block.colorfulcampfires.cyan_acacia_dark_campfire": "Cyan Darkfire Acacia Campfire",
+  "block.colorfulcampfires.cyan_stripped_acacia_campfire": "Cyan Stripped Acacia Campfire",
+  "block.colorfulcampfires.cyan_stripped_acacia_dark_campfire": "Cyan Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.gray_acacia_campfire": "Gray Acacia Campfire",
+  "block.colorfulcampfires.gray_acacia_dark_campfire": "Gray Darkfire Acacia Campfire",
+  "block.colorfulcampfires.gray_stripped_acacia_campfire": "Gray Stripped Acacia Campfire",
+  "block.colorfulcampfires.gray_stripped_acacia_dark_campfire": "Gray Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.green_acacia_campfire": "Green Acacia Campfire",
+  "block.colorfulcampfires.green_acacia_dark_campfire": "Green Darkfire Acacia Campfire",
+  "block.colorfulcampfires.green_stripped_acacia_campfire": "Green Stripped Acacia Campfire",
+  "block.colorfulcampfires.green_stripped_acacia_dark_campfire": "Green Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.light_blue_acacia_campfire": "Light Blue Acacia Campfire",
+  "block.colorfulcampfires.light_blue_acacia_dark_campfire": "Light Blue Darkfire Acacia Campfire",
+  "block.colorfulcampfires.light_blue_stripped_acacia_campfire": "Light Blue Stripped Acacia Campfire",
+  "block.colorfulcampfires.light_blue_stripped_acacia_dark_campfire": "Light Blue Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.light_gray_acacia_campfire": "Light Gray Acacia Campfire",
+  "block.colorfulcampfires.light_gray_acacia_dark_campfire": "Light Gray Darkfire Acacia Campfire",
+  "block.colorfulcampfires.light_gray_stripped_acacia_campfire": "Light Gray Stripped Acacia Campfire",
+  "block.colorfulcampfires.light_gray_stripped_acacia_dark_campfire": "Light Gray Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.lime_acacia_campfire": "Lime Acacia Campfire",
+  "block.colorfulcampfires.lime_acacia_dark_campfire": "Lime Darkfire Acacia Campfire",
+  "block.colorfulcampfires.lime_stripped_acacia_campfire": "Lime Stripped Acacia Campfire",
+  "block.colorfulcampfires.lime_stripped_acacia_dark_campfire": "Lime Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.magenta_acacia_campfire":"Magenta Acacia Campfire",
+  "block.colorfulcampfires.magenta_acacia_dark_campfire": "Magenta Darkfire Acacia Campfire",
+  "block.colorfulcampfires.magenta_stripped_acacia_campfire": "Magenta Stripped Acacia Campfire",
+  "block.colorfulcampfires.magenta_stripped_acacia_dark_campfire": "Magenta Stripped Darkfire Acacia Campfire",
+  
+  "block.colorfulcampfires.orange_acacia_campfire": "Orange Acacia Campfire",
+  "block.colorfulcampfires.orange_acacia_dark_campfire": "Orange Darkfire Acacia Campfire",
+  "block.colorfulcampfires.orange_stripped_acacia_campfire": "Orange Stripped Acacia Campfire",
+  "block.colorfulcampfires.orange_stripped_acacia_dark_campfire": "Orange Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.pink_acacia_campfire": "Pink Acacia Campfire",
+  "block.colorfulcampfires.pink_acacia_dark_campfire": "Pink Darkfire Acacia Campfire",
+  "block.colorfulcampfires.pink_stripped_acacia_campfire": "Pink Stripped Acacia Campfire",
+  "block.colorfulcampfires.pink_stripped_acacia_dark_campfire": "Pink Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.purple_acacia_campfire": "Purple Acacia Campfire",
+  "block.colorfulcampfires.purple_acacia_dark_campfire": "Purple Darkfire Acacia Campfire",
+  "block.colorfulcampfires.purple_stripped_acacia_campfire": "Purple Stripped Acacia Campfire",
+  "block.colorfulcampfires.purple_stripped_acacia_dark_campfire": "Purple Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.red_acacia_campfire": "Red Acacia Campfire",
+  "block.colorfulcampfires.red_acacia_dark_campfire": "Red Darkfire Acacia Campfire",
+  "block.colorfulcampfires.red_stripped_acacia_campfire": "Red Stripped Acacia Campfire",
+  "block.colorfulcampfires.red_stripped_acacia_dark_campfire": "Red Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.white_acacia_campfire": "White Acacia Campfire",
+  "block.colorfulcampfires.white_acacia_dark_campfire": "White Darkfire Acacia Campfire",
+  "block.colorfulcampfires.white_stripped_acacia_campfire": "White Stripped Acacia Campfire",
+  "block.colorfulcampfires.white_stripped_acacia_dark_campfire": "White Stripped Darkfire Acacia Campfire",
+
+  "block.colorfulcampfires.yellow_acacia_campfire": "Yellow Acacia Campfire",
+  "block.colorfulcampfires.yellow_acacia_dark_campfire": "Yellow Darkfire Acacia Campfire",
+  "block.colorfulcampfires.yellow_stripped_acacia_campfire": "Yellow Stripped Acacia Campfire",
+  "block.colorfulcampfires.yellow_stripped_acacia_dark_campfire": "Yellow Stripped Darkfire Acacia Campfire",
 
   "creativetab.colorful_campfires_tab": "Colorful Campfires"
 }

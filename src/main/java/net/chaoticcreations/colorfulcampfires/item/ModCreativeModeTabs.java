@@ -29,6 +29,10 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.STRIPPED_SPRUCE_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_ACACIA_CAMPFIRE.get());
+
+                        //OAK CAMPFIRE VARIANTS
 
                         //SPRUCE CAMPFIRE VARIANTS
                         // === NON-STRIPPED CAMPFIRES ===
@@ -179,6 +183,95 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.PURPLE_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.MAGENTA_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.PINK_STRIPPED_BIRCH_DARK_CAMPFIRE.get());
+
+                        // JUNGLE CAMPFIRE VARIANTS
+
+                        // ACACIA CAMPFIRE VARIANTS
+
+// === NON-STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_ACACIA_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_ACACIA_DARK_CAMPFIRE.get());
+
+                        // === STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_ACACIA_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_ACACIA_DARK_CAMPFIRE.get());
+
+
+                        // DARK OAK CAMPFIRE VARIANTS
+
+                        // MANGROVE CAMPFIRE VARIANTS
+
+                        // CHERRY CAMPFIRE VARIANTS
+
+                        // CRIMSON CAMPFIRE VARIANTS
+
+                        // WARPED CAMPFIRE VARIANTS
 
 
 
