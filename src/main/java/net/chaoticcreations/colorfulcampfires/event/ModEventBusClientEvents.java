@@ -21,6 +21,12 @@ public class ModEventBusClientEvents {
         event.registerBlockEntityRenderer(ModBlockEntities.STRIPPED_SPRUCE_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.BIRCH_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
         event.registerBlockEntityRenderer(ModBlockEntities.STRIPPED_BIRCH_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ACACIA_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.STRIPPED_ACACIA_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
 
         // OAK CAMPFIRE VARIANTS
 
@@ -328,6 +334,196 @@ public class ModEventBusClientEvents {
         // CRIMSON CAMPFIRE VARIANTS
 
         // WARPED CAMPFIRE VARIANTS
+        // === BLACK VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
 
+        // === BLUE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+       
+        // === BROWN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === CYAN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === GRAY VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+       
+        // === GREEN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIGHT BLUE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIGHT GRAY VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIME VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === MAGENTA VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === ORANGE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === PINK VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === PURPLE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === RED VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === WHITE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === YELLOW VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_STRIPPED_CRIMSON_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === BLACK VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLACK_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === BLUE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BLUE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+       
+        // === BROWN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.BROWN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === CYAN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.CYAN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === GRAY VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GRAY_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+       
+        // === GREEN VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.GREEN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIGHT BLUE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_BLUE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIGHT GRAY VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIGHT_GRAY_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === LIME VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.LIME_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === MAGENTA VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.MAGENTA_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === ORANGE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.ORANGE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === PINK VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PINK_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === PURPLE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.PURPLE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === RED VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.RED_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === WHITE VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.WHITE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+
+        // === YELLOW VARIANTS ===
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_STRIPPED_WARPED_STEM_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
+        event.registerBlockEntityRenderer(ModBlockEntities.YELLOW_STRIPPED_WARPED_STEM_DARK_CAMPFIRE_BE.get(), UniversalCampfireBlockRenderer::new);
     }
 }

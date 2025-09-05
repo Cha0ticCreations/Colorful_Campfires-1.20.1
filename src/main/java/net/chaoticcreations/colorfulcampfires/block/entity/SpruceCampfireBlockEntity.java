@@ -18,6 +18,7 @@ import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.CampfireBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec2;
 
@@ -35,9 +36,9 @@ public class SpruceCampfireBlockEntity extends BlockEntity implements Clearable 
     private final int[] cookingProgress = new int[4];
     private final int[] cookingTime = new int[4];
     private final RecipeManager.CachedCheck<Container, CampfireCookingRecipe> quickCheck = RecipeManager.createCheck(RecipeType.CAMPFIRE_COOKING);
-
     public SpruceCampfireBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.SPRUCE_CAMPFIRE_BE.get(), pos, state);
+    // ...existing code...
     }
 
     public static void clientTick(Level level, BlockPos pos, BlockState state, SpruceCampfireBlockEntity blockEntity) {

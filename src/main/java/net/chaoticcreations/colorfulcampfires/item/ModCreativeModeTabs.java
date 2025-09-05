@@ -31,6 +31,10 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.ACACIA_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_ACACIA_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
 
                         //OAK CAMPFIRE VARIANTS
 
@@ -270,8 +274,156 @@ public class ModCreativeModeTabs
                         // CHERRY CAMPFIRE VARIANTS
 
                         // CRIMSON CAMPFIRE VARIANTS
+                        // === NON-STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_CRIMSON_STEM_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_CRIMSON_STEM_DARK_CAMPFIRE.get());
+
+                        // === STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_CRIMSON_STEM_DARK_CAMPFIRE.get());
+
 
                         // WARPED CAMPFIRE VARIANTS
+                        
+// === NON-STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_WARPED_STEM_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_WARPED_STEM_DARK_CAMPFIRE.get());
+
+                        // === STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_WARPED_STEM_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
 
 
 

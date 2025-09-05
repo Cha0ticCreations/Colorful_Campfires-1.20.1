@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "colorfulcampfires:lime_stripped_crimson_stem_dark_campfire"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "colorfulcampfires:blocks/lime_stripped_crimson_stem_dark_campfire"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "colorfulcampfires:warped_stem_campfire"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "colorfulcampfires:blocks/warped_stem_campfire"
+}

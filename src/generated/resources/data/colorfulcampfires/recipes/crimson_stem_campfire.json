@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "ScS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:crimson_stem"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "c": {
+      "item": "colorfulcampfires:crimson_stem_campfire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "colorfulcampfires:stripped_crimson_stem_campfire"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:crimson_stem_campfire"
+  }
+}
