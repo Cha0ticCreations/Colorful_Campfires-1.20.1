@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "ScS",
+    "sss"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:mangrove_log"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "c": {
+      "item": "colorfulcampfires:mangrove_campfire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "colorfulcampfires:stripped_mangrove_campfire"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:stripped_mangrove_campfire"
+  }
+}

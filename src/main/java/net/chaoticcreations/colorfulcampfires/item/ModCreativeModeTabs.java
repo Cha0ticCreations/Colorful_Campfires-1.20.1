@@ -35,6 +35,8 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.STRIPPED_WARPED_STEM_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.CRIMSON_STEM_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_MANGROVE_CAMPFIRE.get());
 
                         //OAK CAMPFIRE VARIANTS
 
@@ -270,6 +272,79 @@ public class ModCreativeModeTabs
                         // DARK OAK CAMPFIRE VARIANTS
 
                         // MANGROVE CAMPFIRE VARIANTS
+                        // === NON-STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_MANGROVE_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_MANGROVE_DARK_CAMPFIRE.get());
+
+                        // === STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_MANGROVE_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_MANGROVE_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_MANGROVE_DARK_CAMPFIRE.get());
 
                         // CHERRY CAMPFIRE VARIANTS
 
