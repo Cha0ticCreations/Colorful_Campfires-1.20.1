@@ -78,11 +78,176 @@ public class ModBlocks {
         public static final RegistryObject<DarkOakCampfireBlock> DARK_OAK_CAMPFIRE = registerBlock("dark_oak_campfire",
                 ()->new DarkOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
         public static final RegistryObject<StrippedDarkOakCampfireBlock> STRIPPED_DARK_OAK_CAMPFIRE = registerBlock("stripped_dark_oak_campfire",
-                ()->new StrippedDarkOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));           
+                ()->new StrippedDarkOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));    
+        public static final RegistryObject<OakCampfireBlock> OAK_CAMPFIRE = registerBlock("oak_campfire",
+                ()->new OakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+        public static final RegistryObject<StrippedOakCampfireBlock> STRIPPED_OAK_CAMPFIRE = registerBlock("stripped_oak_campfire",
+                ()->new StrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));        
 
 
 
 //OAK CAMPFIRE VARIANTS
+// === BLACK VARIANTS ===
+    public static final RegistryObject<BlackOakCampfireBlock> BLACK_OAK_CAMPFIRE = registerBlock("black_oak_campfire",
+            ()->new BlackOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackOakDarkCampfireBlock> BLACK_OAK_DARK_CAMPFIRE = registerBlock("black_oak_dark_campfire",
+            ()->new BlackOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackStrippedOakCampfireBlock> BLACK_STRIPPED_OAK_CAMPFIRE = registerBlock("black_stripped_oak_campfire",
+            ()->new BlackStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlackStrippedOakDarkCampfireBlock> BLACK_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("black_stripped_oak_dark_campfire",
+            ()->new BlackStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === BLUE VARIANTS ===
+    public static final RegistryObject<BlueOakCampfireBlock> BLUE_OAK_CAMPFIRE = registerBlock("blue_oak_campfire",
+            ()->new BlueOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueOakDarkCampfireBlock> BLUE_OAK_DARK_CAMPFIRE = registerBlock("blue_oak_dark_campfire",
+            ()->new BlueOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueStrippedOakCampfireBlock> BLUE_STRIPPED_OAK_CAMPFIRE = registerBlock("blue_stripped_oak_campfire",
+            ()->new BlueStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BlueStrippedOakDarkCampfireBlock> BLUE_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("blue_stripped_oak_dark_campfire",
+            ()->new BlueStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === BROWN VARIANTS ===
+    public static final RegistryObject<BrownOakCampfireBlock> BROWN_OAK_CAMPFIRE = registerBlock("brown_oak_campfire",
+            ()->new BrownOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownOakDarkCampfireBlock> BROWN_OAK_DARK_CAMPFIRE = registerBlock("brown_oak_dark_campfire",
+            ()->new BrownOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownStrippedOakCampfireBlock> BROWN_STRIPPED_OAK_CAMPFIRE = registerBlock("brown_stripped_oak_campfire",
+            ()->new BrownStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<BrownStrippedOakDarkCampfireBlock> BROWN_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("brown_stripped_oak_dark_campfire",
+            ()->new BrownStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+
+    // === CYAN VARIANTS ===
+    public static final RegistryObject<CyanOakCampfireBlock> CYAN_OAK_CAMPFIRE = registerBlock("cyan_oak_campfire",
+            ()->new CyanOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanOakDarkCampfireBlock> CYAN_OAK_DARK_CAMPFIRE = registerBlock("cyan_oak_dark_campfire",
+            ()->new CyanOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanStrippedOakCampfireBlock> CYAN_STRIPPED_OAK_CAMPFIRE = registerBlock("cyan_stripped_oak_campfire",
+            ()->new CyanStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<CyanStrippedOakDarkCampfireBlock> CYAN_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("cyan_stripped_oak_dark_campfire",
+            ()->new CyanStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === GRAY VARIANTS ===
+    public static final RegistryObject<GrayOakCampfireBlock> GRAY_OAK_CAMPFIRE = registerBlock("gray_oak_campfire",
+            ()->new GrayOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayOakDarkCampfireBlock> GRAY_OAK_DARK_CAMPFIRE = registerBlock("gray_oak_dark_campfire",
+            ()->new GrayOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedOakCampfireBlock> GRAY_STRIPPED_OAK_CAMPFIRE = registerBlock("gray_stripped_oak_campfire",
+            ()->new GrayStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GrayStrippedOakDarkCampfireBlock> GRAY_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("gray_stripped_oak_dark_campfire",
+            ()->new GrayStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === GREEN VARIANTS ===
+    public static final RegistryObject<GreenOakCampfireBlock> GREEN_OAK_CAMPFIRE = registerBlock("green_oak_campfire",
+            ()->new GreenOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenOakDarkCampfireBlock> GREEN_OAK_DARK_CAMPFIRE = registerBlock("green_oak_dark_campfire",
+            ()->new GreenOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenStrippedOakCampfireBlock> GREEN_STRIPPED_OAK_CAMPFIRE = registerBlock("green_stripped_oak_campfire",
+            ()->new GreenStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<GreenStrippedOakDarkCampfireBlock> GREEN_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("green_stripped_oak_dark_campfire",
+            ()->new GreenStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === LIGHT BLUE VARIANTS ===
+    public static final RegistryObject<LightBlueOakCampfireBlock> LIGHT_BLUE_OAK_CAMPFIRE = registerBlock("light_blue_oak_campfire",
+            ()->new LightBlueOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueOakDarkCampfireBlock> LIGHT_BLUE_OAK_DARK_CAMPFIRE = registerBlock("light_blue_oak_dark_campfire",
+            ()->new LightBlueOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueStrippedOakCampfireBlock> LIGHT_BLUE_STRIPPED_OAK_CAMPFIRE = registerBlock("light_blue_stripped_oak_campfire",
+            ()->new LightBlueStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightBlueStrippedOakDarkCampfireBlock> LIGHT_BLUE_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("light_blue_stripped_oak_dark_campfire",
+            ()->new LightBlueStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+
+    // === LIGHT GRAY VARIANTS ===
+    public static final RegistryObject<LightGrayOakCampfireBlock> LIGHT_GRAY_OAK_CAMPFIRE = registerBlock("light_gray_oak_campfire",
+            ()->new LightGrayOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LightGrayOakDarkCampfireBlock> LIGHT_GRAY_OAK_DARK_CAMPFIRE = registerBlock("light_gray_oak_dark_campfire",
+            ()->new LightGrayOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+        public static final RegistryObject<LightGrayStrippedOakCampfireBlock> LIGHT_GRAY_STRIPPED_OAK_CAMPFIRE = registerBlock("light_gray_stripped_oak_campfire",
+                ()->new LightGrayStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+        public static final RegistryObject<LightGrayStrippedOakDarkCampfireBlock> LIGHT_GRAY_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("light_gray_stripped_oak_dark_campfire",
+                ()->new LightGrayStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === LIME VARIANTS ===
+    public static final RegistryObject<LimeOakCampfireBlock> LIME_OAK_CAMPFIRE = registerBlock("lime_oak_campfire",
+            ()->new LimeOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeOakDarkCampfireBlock> LIME_OAK_DARK_CAMPFIRE = registerBlock("lime_oak_dark_campfire",
+            ()->new LimeOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeStrippedOakCampfireBlock> LIME_STRIPPED_OAK_CAMPFIRE = registerBlock("lime_stripped_oak_campfire",
+            ()->new LimeStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<LimeStrippedOakDarkCampfireBlock> LIME_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("lime_stripped_oak_dark_campfire",
+            ()->new LimeStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === MAGENTA VARIANTS ===
+    public static final RegistryObject<MagentaOakCampfireBlock> MAGENTA_OAK_CAMPFIRE = registerBlock("magenta_oak_campfire",
+            ()->new MagentaOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaOakDarkCampfireBlock> MAGENTA_OAK_DARK_CAMPFIRE = registerBlock("magenta_oak_dark_campfire",
+            ()->new MagentaOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaStrippedOakCampfireBlock> MAGENTA_STRIPPED_OAK_CAMPFIRE = registerBlock("magenta_stripped_oak_campfire",
+            ()->new MagentaStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<MagentaStrippedOakDarkCampfireBlock> MAGENTA_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("magenta_stripped_oak_dark_campfire",
+            ()->new MagentaStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === ORANGE VARIANTS ===
+    public static final RegistryObject<OrangeOakCampfireBlock> ORANGE_OAK_CAMPFIRE = registerBlock("orange_oak_campfire",
+            ()->new OrangeOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeOakDarkCampfireBlock> ORANGE_OAK_DARK_CAMPFIRE = registerBlock("orange_oak_dark_campfire",
+            ()->new OrangeOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeStrippedOakCampfireBlock> ORANGE_STRIPPED_OAK_CAMPFIRE = registerBlock("orange_stripped_oak_campfire",
+            ()->new OrangeStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<OrangeStrippedOakDarkCampfireBlock> ORANGE_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("orange_stripped_oak_dark_campfire",
+            ()->new OrangeStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === PINK VARIANTS ===
+    public static final RegistryObject<PinkOakCampfireBlock> PINK_OAK_CAMPFIRE = registerBlock("pink_oak_campfire",
+            ()->new PinkOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkOakDarkCampfireBlock> PINK_OAK_DARK_CAMPFIRE = registerBlock("pink_oak_dark_campfire",
+            ()->new PinkOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedOakCampfireBlock> PINK_STRIPPED_OAK_CAMPFIRE = registerBlock("pink_stripped_oak_campfire",
+            ()->new PinkStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PinkStrippedOakDarkCampfireBlock> PINK_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("pink_stripped_oak_dark_campfire",
+            ()->new PinkStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === PURPLE VARIANTS ===
+    public static final RegistryObject<PurpleOakCampfireBlock> PURPLE_OAK_CAMPFIRE = registerBlock("purple_oak_campfire",
+            ()->new PurpleOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleOakDarkCampfireBlock> PURPLE_OAK_DARK_CAMPFIRE = registerBlock("purple_oak_dark_campfire",
+            ()->new PurpleOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleStrippedOakCampfireBlock> PURPLE_STRIPPED_OAK_CAMPFIRE = registerBlock("purple_stripped_oak_campfire",
+            ()->new PurpleStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<PurpleStrippedOakDarkCampfireBlock> PURPLE_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("purple_stripped_oak_dark_campfire",
+            ()->new PurpleStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === RED VARIANTS ===
+    public static final RegistryObject<RedOakCampfireBlock> RED_OAK_CAMPFIRE = registerBlock("red_oak_campfire",
+            ()->new RedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedOakDarkCampfireBlock> RED_OAK_DARK_CAMPFIRE = registerBlock("red_oak_dark_campfire",
+            ()->new RedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedStrippedOakCampfireBlock> RED_STRIPPED_OAK_CAMPFIRE = registerBlock("red_stripped_oak_campfire",
+            ()->new RedStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<RedStrippedOakDarkCampfireBlock> RED_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("red_stripped_oak_dark_campfire",
+            ()->new RedStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === WHITE VARIANTS ===
+    public static final RegistryObject<WhiteOakCampfireBlock> WHITE_OAK_CAMPFIRE = registerBlock("white_oak_campfire",
+            ()->new WhiteOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteOakDarkCampfireBlock> WHITE_OAK_DARK_CAMPFIRE = registerBlock("white_oak_dark_campfire",
+            ()->new WhiteOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteStrippedOakCampfireBlock> WHITE_STRIPPED_OAK_CAMPFIRE = registerBlock("white_stripped_oak_campfire",
+            ()->new WhiteStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<WhiteStrippedOakDarkCampfireBlock> WHITE_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("white_stripped_oak_dark_campfire",
+            ()->new WhiteStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+
+    // === YELLOW VARIANTS ===
+    public static final RegistryObject<YellowOakCampfireBlock> YELLOW_OAK_CAMPFIRE = registerBlock("yellow_oak_campfire",
+            ()->new YellowOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowOakDarkCampfireBlock> YELLOW_OAK_DARK_CAMPFIRE = registerBlock("yellow_oak_dark_campfire",
+            ()->new YellowOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowStrippedOakCampfireBlock> YELLOW_STRIPPED_OAK_CAMPFIRE = registerBlock("yellow_stripped_oak_campfire",
+            ()->new YellowStrippedOakCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
+    public static final RegistryObject<YellowStrippedOakDarkCampfireBlock> YELLOW_STRIPPED_OAK_DARK_CAMPFIRE = registerBlock("yellow_stripped_oak_dark_campfire",
+            ()->new YellowStrippedOakDarkCampfireBlock(true,1, BlockBehaviour.Properties.copy(Blocks.CAMPFIRE)));
 
 //SPRUCE CAMPFIRE VARIANTS
 

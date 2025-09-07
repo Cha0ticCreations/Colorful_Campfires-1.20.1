@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "ScS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:oak_log"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "c": {
+      "item": "colorfulcampfires:oak_campfire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "colorfulcampfires:stripped_oak_campfire"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:oak_campfire"
+  }
+}
