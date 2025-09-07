@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DS ",
+    "ScS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:cherry_log"
+    },
+    "C": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "c": {
+      "item": "colorfulcampfires:cyan_cherry_campfire"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:cyan_dye"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:cyan_cherry_campfire"
+  }
+}

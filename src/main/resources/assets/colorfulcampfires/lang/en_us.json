@@ -15,6 +15,8 @@
   "block.colorfulcampfires.stripped_mangrove_campfire": "Stripped Mangrove Campfire",
   "block.colorfulcampfires.jungle_campfire": "Jungle Campfire",
   "block.colorfulcampfires.stripped_jungle_campfire": "Stripped Jungle Campfire",
+  "block.colorfulcampfires.cherry_campfire": "Cherry Campfire",
+  "block.colorfulcampfires.stripped_cherry_campfire": "Stripped Cherry Campfire",
 
   "block.colorfulcampfires.black_birch_campfire": "Black Birch Campfire",
   "block.colorfulcampfires.black_birch_dark_campfire": "Black Darkfire Birch Campfire",
@@ -575,6 +577,86 @@
   "block.colorfulcampfires.yellow_jungle_dark_campfire": "Yellow Darkfire Jungle Campfire",
   "block.colorfulcampfires.yellow_stripped_jungle_campfire": "Yellow Stripped Jungle Campfire",
   "block.colorfulcampfires.yellow_stripped_jungle_dark_campfire": "Yellow Stripped Darkfire Jungle Campfire",
+  
+  "block.colorfulcampfires.black_cherry_campfire": "Black Cherry Campfire",
+  "block.colorfulcampfires.black_cherry_dark_campfire": "Black Darkfire Cherry Campfire",
+  "block.colorfulcampfires.black_stripped_cherry_campfire": "Black Stripped Cherry Campfire",
+  "block.colorfulcampfires.black_stripped_cherry_dark_campfire": "Black Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.blue_cherry_campfire": "Blue Cherry Campfire",
+  "block.colorfulcampfires.blue_cherry_dark_campfire": "Blue Darkfire Cherry Campfire",
+  "block.colorfulcampfires.blue_stripped_cherry_campfire": "Blue Stripped Cherry Campfire",
+  "block.colorfulcampfires.blue_stripped_cherry_dark_campfire": "Blue Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.brown_cherry_campfire": "Brown Cherry Campfire",
+  "block.colorfulcampfires.brown_cherry_dark_campfire": "Brown Darkfire Cherry Campfire",
+  "block.colorfulcampfires.brown_stripped_cherry_campfire": "Brown Stripped Cherry Campfire",
+  "block.colorfulcampfires.brown_stripped_cherry_dark_campfire": "Brown Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.cyan_cherry_campfire": "Cyan Cherry Campfire",
+  "block.colorfulcampfires.cyan_cherry_dark_campfire": "Cyan Darkfire Cherry Campfire",
+  "block.colorfulcampfires.cyan_stripped_cherry_campfire": "Cyan Stripped Cherry Campfire",
+  "block.colorfulcampfires.cyan_stripped_cherry_dark_campfire": "Cyan Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.gray_cherry_campfire": "Gray Cherry Campfire",
+  "block.colorfulcampfires.gray_cherry_dark_campfire": "Gray Darkfire Cherry Campfire",
+  "block.colorfulcampfires.gray_stripped_cherry_campfire": "Gray Stripped Cherry Campfire",
+  "block.colorfulcampfires.gray_stripped_cherry_dark_campfire": "Gray Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.green_cherry_campfire": "Green Cherry Campfire",
+  "block.colorfulcampfires.green_cherry_dark_campfire": "Green Darkfire Cherry Campfire",
+  "block.colorfulcampfires.green_stripped_cherry_campfire": "Green Stripped Cherry Campfire",
+  "block.colorfulcampfires.green_stripped_cherry_dark_campfire": "Green Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.light_blue_cherry_campfire": "Light Blue Cherry Campfire",
+  "block.colorfulcampfires.light_blue_cherry_dark_campfire": "Light Blue Darkfire Cherry Campfire",
+  "block.colorfulcampfires.light_blue_stripped_cherry_campfire": "Light Blue Stripped Cherry Campfire",
+  "block.colorfulcampfires.light_blue_stripped_cherry_dark_campfire": "Light Blue Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.light_gray_cherry_campfire": "Light Gray Cherry Campfire",
+  "block.colorfulcampfires.light_gray_cherry_dark_campfire": "Light Gray Darkfire Cherry Campfire",
+  "block.colorfulcampfires.light_gray_stripped_cherry_campfire": "Light Gray Stripped Cherry Campfire",
+  "block.colorfulcampfires.light_gray_stripped_cherry_dark_campfire": "Light Gray Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.lime_cherry_campfire": "Lime Cherry Campfire",
+  "block.colorfulcampfires.lime_cherry_dark_campfire": "Lime Darkfire Cherry Campfire",
+  "block.colorfulcampfires.lime_stripped_cherry_campfire": "Lime Stripped Cherry Campfire",
+  "block.colorfulcampfires.lime_stripped_cherry_dark_campfire": "Lime Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.magenta_cherry_campfire":"Magenta Cherry Campfire",
+  "block.colorfulcampfires.magenta_cherry_dark_campfire": "Magenta Darkfire Cherry Campfire",
+  "block.colorfulcampfires.magenta_stripped_cherry_campfire": "Magenta Stripped Cherry Campfire",
+  "block.colorfulcampfires.magenta_stripped_cherry_dark_campfire": "Magenta Stripped Darkfire Cherry Campfire",
+  
+  "block.colorfulcampfires.orange_cherry_campfire": "Orange Cherry Campfire",
+  "block.colorfulcampfires.orange_cherry_dark_campfire": "Orange Darkfire Cherry Campfire",
+  "block.colorfulcampfires.orange_stripped_cherry_campfire": "Orange Stripped Cherry Campfire",
+  "block.colorfulcampfires.orange_stripped_cherry_dark_campfire": "Orange Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.pink_cherry_campfire": "Pink Cherry Campfire",
+  "block.colorfulcampfires.pink_cherry_dark_campfire": "Pink Darkfire Cherry Campfire",
+  "block.colorfulcampfires.pink_stripped_cherry_campfire": "Pink Stripped Cherry Campfire",
+  "block.colorfulcampfires.pink_stripped_cherry_dark_campfire": "Pink Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.purple_cherry_campfire": "Purple Cherry Campfire",
+  "block.colorfulcampfires.purple_cherry_dark_campfire": "Purple Darkfire Cherry Campfire",
+  "block.colorfulcampfires.purple_stripped_cherry_campfire": "Purple Stripped Cherry Campfire",
+  "block.colorfulcampfires.purple_stripped_cherry_dark_campfire": "Purple Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.red_cherry_campfire": "Red Cherry Campfire",
+  "block.colorfulcampfires.red_cherry_dark_campfire": "Red Darkfire Cherry Campfire",
+  "block.colorfulcampfires.red_stripped_cherry_campfire": "Red Stripped Cherry Campfire",
+  "block.colorfulcampfires.red_stripped_cherry_dark_campfire": "Red Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.white_cherry_campfire": "White Cherry Campfire",
+  "block.colorfulcampfires.white_cherry_dark_campfire": "White Darkfire Cherry Campfire",
+  "block.colorfulcampfires.white_stripped_cherry_campfire": "White Stripped Cherry Campfire",
+  "block.colorfulcampfires.white_stripped_cherry_dark_campfire": "White Stripped Darkfire Cherry Campfire",
+
+  "block.colorfulcampfires.yellow_cherry_campfire": "Yellow Cherry Campfire",
+  "block.colorfulcampfires.yellow_cherry_dark_campfire": "Yellow Darkfire Cherry Campfire",
+  "block.colorfulcampfires.yellow_stripped_cherry_campfire": "Yellow Stripped Cherry Campfire",
+  "block.colorfulcampfires.yellow_stripped_cherry_dark_campfire": "Yellow Stripped Darkfire Cherry Campfire",
   
 
 

@@ -2,7 +2,7 @@
   "parent": "minecraft:block/template_campfire",
   "render_type": "minecraft:cutout",
   "textures": {
-    "fire": "colorfulcampfires:block/campfire_cyan_fire",
+    "fire": "colorfulcampfires:block/campfire_cyan_dark_fire",
     "lit_log": "colorfulcampfires:block/cyan_mangrove_campfire_log_lit",
     "log": "colorfulcampfires:block/mangrove_campfire_log",
     "particle": "colorfulcampfires:block/cyan_mangrove_campfire_log_lit"

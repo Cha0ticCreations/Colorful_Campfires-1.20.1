@@ -2,7 +2,7 @@
   "parent": "minecraft:block/template_campfire",
   "render_type": "minecraft:cutout",
   "textures": {
-    "fire": "colorfulcampfires:block/campfire_green_fire",
+    "fire": "colorfulcampfires:block/campfire_green_dark_fire",
     "lit_log": "colorfulcampfires:block/green_stripped_acacia_campfire_log_lit",
     "log": "colorfulcampfires:block/stripped_acacia_campfire_log",
     "particle": "colorfulcampfires:block/green_stripped_acacia_campfire_log_lit"
