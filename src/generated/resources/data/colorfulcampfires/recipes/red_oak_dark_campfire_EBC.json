@@ -5,22 +5,8 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:oak_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:red_oak_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:oak_campfire"
     },
     "D": {
       "item": "minecraft:red_dye"
@@ -30,6 +16,6 @@
     }
   },
   "result": {
-    "item": "colorfulcampfires:red_oak_dark_campfire_ebc"
+    "item": "colorfulcampfires:red_oak_dark_campfire"
   }
 }

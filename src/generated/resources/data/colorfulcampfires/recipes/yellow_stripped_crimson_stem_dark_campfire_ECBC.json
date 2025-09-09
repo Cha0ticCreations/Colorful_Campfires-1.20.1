@@ -4,31 +4,14 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:crimson_stem"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:yellow_crimson_stem_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "D": {
-      "item": "minecraft:yellow_dye"
+    "C": {
+      "item": "colorfulcampfires:yellow_stripped_crimson_stem_campfire"
     },
     "-": {
       "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:yellow_stripped_crimson_stem_dark_campfire_ecbc"
+    "item": "colorfulcampfires:yellow_stripped_crimson_stem_dark_campfire"
   }
 }

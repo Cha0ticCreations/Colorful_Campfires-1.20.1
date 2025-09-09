@@ -7,9 +7,9 @@
   ],
   "key": {
     "L": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:stripped_jungle_log"
     },
-    "C": [
+    "c": [
       {
         "item": "minecraft:coal"
       },
@@ -17,9 +17,6 @@
         "item": "minecraft:charcoal"
       }
     ],
-    "c": {
-      "item": "colorfulcampfires:cyan_jungle_campfire"
-    },
     "S": {
       "item": "minecraft:stick"
     },

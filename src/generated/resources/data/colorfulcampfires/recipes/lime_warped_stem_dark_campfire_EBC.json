@@ -5,22 +5,8 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:warped_stem"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:lime_warped_stem_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:warped_stem_campfire"
     },
     "D": {
       "item": "minecraft:lime_dye"
@@ -30,6 +16,6 @@
     }
   },
   "result": {
-    "item": "colorfulcampfires:lime_warped_stem_dark_campfire_ebc"
+    "item": "colorfulcampfires:lime_warped_stem_dark_campfire"
   }
 }

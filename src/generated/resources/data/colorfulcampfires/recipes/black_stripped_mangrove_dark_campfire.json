@@ -7,9 +7,9 @@
   ],
   "key": {
     "L": {
-      "item": "minecraft:mangrove_log"
+      "item": "minecraft:stripped_mangrove_log"
     },
-    "C": [
+    "c": [
       {
         "item": "minecraft:coal"
       },
@@ -17,9 +17,6 @@
         "item": "minecraft:charcoal"
       }
     ],
-    "c": {
-      "item": "colorfulcampfires:black_mangrove_campfire"
-    },
     "S": {
       "item": "minecraft:stick"
     },

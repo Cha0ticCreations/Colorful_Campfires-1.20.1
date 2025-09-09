@@ -4,31 +4,14 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:acacia_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:light_gray_acacia_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "D": {
-      "item": "minecraft:light_gray_dye"
+    "C": {
+      "item": "colorfulcampfires:light_gray_stripped_acacia_campfire"
     },
     "-": {
       "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:light_gray_stripped_acacia_dark_campfire_ecbc"
+    "item": "colorfulcampfires:light_gray_stripped_acacia_dark_campfire"
   }
 }

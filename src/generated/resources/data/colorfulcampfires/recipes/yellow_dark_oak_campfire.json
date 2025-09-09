@@ -9,7 +9,7 @@
     "L": {
       "item": "minecraft:dark_oak_log"
     },
-    "C": [
+    "c": [
       {
         "item": "minecraft:coal"
       },
@@ -17,17 +17,11 @@
         "item": "minecraft:charcoal"
       }
     ],
-    "c": {
-      "item": "colorfulcampfires:yellow_dark_oak_campfire"
-    },
     "S": {
       "item": "minecraft:stick"
     },
     "D": {
       "item": "minecraft:yellow_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {

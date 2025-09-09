@@ -5,31 +5,14 @@
     " C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:mangrove_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:red_mangrove_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:mangrove_campfire"
     },
     "D": {
       "item": "minecraft:red_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:red_mangrove_campfire_ebc"
+    "item": "colorfulcampfires:red_mangrove_campfire"
   }
 }

@@ -5,31 +5,14 @@
     " C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:jungle_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:yellow_jungle_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:jungle_campfire"
     },
     "D": {
       "item": "minecraft:yellow_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:yellow_jungle_campfire_ebc"
+    "item": "colorfulcampfires:yellow_jungle_campfire"
   }
 }

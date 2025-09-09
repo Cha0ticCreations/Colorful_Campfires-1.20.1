@@ -9,22 +9,11 @@
     "L": {
       "item": "minecraft:acacia_log"
     },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
     "c": {
       "item": "colorfulcampfires:acacia_campfire"
     },
     "S": {
       "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "colorfulcampfires:stripped_acacia_campfire"
     }
   },
   "result": {

@@ -5,22 +5,8 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:spruce_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:cyan_spruce_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:spruce_campfire"
     },
     "D": {
       "item": "minecraft:cyan_dye"
@@ -30,6 +16,6 @@
     }
   },
   "result": {
-    "item": "colorfulcampfires:cyan_spruce_dark_campfire_ebc"
+    "item": "colorfulcampfires:cyan_spruce_dark_campfire"
   }
 }

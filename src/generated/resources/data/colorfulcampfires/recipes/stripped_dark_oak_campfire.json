@@ -6,17 +6,6 @@
     "sss"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:dark_oak_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
     "c": {
       "item": "colorfulcampfires:dark_oak_campfire"
     },

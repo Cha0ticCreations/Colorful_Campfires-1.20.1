@@ -9,7 +9,7 @@
     "L": {
       "item": "minecraft:cherry_log"
     },
-    "C": [
+    "c": [
       {
         "item": "minecraft:coal"
       },
@@ -17,17 +17,11 @@
         "item": "minecraft:charcoal"
       }
     ],
-    "c": {
-      "item": "colorfulcampfires:gray_cherry_campfire"
-    },
     "S": {
       "item": "minecraft:stick"
     },
     "D": {
       "item": "minecraft:gray_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {

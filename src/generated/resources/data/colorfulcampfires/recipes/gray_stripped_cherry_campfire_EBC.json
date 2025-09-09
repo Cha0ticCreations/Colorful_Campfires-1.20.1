@@ -5,31 +5,14 @@
     " C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:cherry_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:gray_cherry_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
+    "C": {
+      "item": "colorfulcampfires:stripped_cherry_campfire"
     },
     "D": {
       "item": "minecraft:gray_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:gray_stripped_cherry_campfire_ebc"
+    "item": "colorfulcampfires:gray_stripped_cherry_campfire"
   }
 }

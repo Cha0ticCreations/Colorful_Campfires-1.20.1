@@ -9,7 +9,7 @@
     "L": {
       "item": "minecraft:warped_stem"
     },
-    "C": [
+    "c": [
       {
         "item": "minecraft:coal"
       },
@@ -17,17 +17,11 @@
         "item": "minecraft:charcoal"
       }
     ],
-    "c": {
-      "item": "colorfulcampfires:magenta_warped_stem_campfire"
-    },
     "S": {
       "item": "minecraft:stick"
     },
     "D": {
       "item": "minecraft:magenta_dye"
-    },
-    "-": {
-      "item": "minecraft:black_dye"
     }
   },
   "result": {

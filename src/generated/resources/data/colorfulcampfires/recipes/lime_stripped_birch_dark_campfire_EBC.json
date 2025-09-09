@@ -1,24 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "pattern": [
+    " D",
+    "-C"
+  ],
   "key": {
-    
     "C": {
       "item": "colorfulcampfires:stripped_birch_campfire"
     },
-    "G": {
+    "D": {
       "item": "minecraft:lime_dye"
     },
     "-": {
       "item": "minecraft:black_dye"
     }
   },
-  "pattern": [
-    " G",
-    "-C"
-  ],
   "result": {
     "item": "colorfulcampfires:lime_stripped_birch_dark_campfire"
-  },
-  "show_notification": true
+  }
 }

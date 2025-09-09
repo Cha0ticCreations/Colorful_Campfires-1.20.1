@@ -4,31 +4,14 @@
     "-C"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:birch_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
-    "c": {
-      "item": "colorfulcampfires:green_birch_campfire"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    },
-    "D": {
-      "item": "minecraft:green_dye"
+    "C": {
+      "item": "colorfulcampfires:green_stripped_birch_campfire"
     },
     "-": {
       "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "colorfulcampfires:green_stripped_birch_dark_campfire_ecbc"
+    "item": "colorfulcampfires:green_stripped_birch_dark_campfire"
   }
 }

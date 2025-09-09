@@ -38,6 +38,8 @@ public class ColorfulCampfires
         ModBlockEntities.register(modEventBus);
         ModParticles.register(modEventBus);
 
+        // Initialize optional JEI integration safely
+        net.chaoticcreations.colorfulcampfires.compat.JEIIntegration.initializeJEI();
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

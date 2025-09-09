@@ -6,17 +6,6 @@
     "sss"
   ],
   "key": {
-    "L": {
-      "item": "minecraft:jungle_log"
-    },
-    "C": [
-      {
-        "item": "minecraft:coal"
-      },
-      {
-        "item": "minecraft:charcoal"
-      }
-    ],
     "c": {
       "item": "colorfulcampfires:jungle_campfire"
     },
