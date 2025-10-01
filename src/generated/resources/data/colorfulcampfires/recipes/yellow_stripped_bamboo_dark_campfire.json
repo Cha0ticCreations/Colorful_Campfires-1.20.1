@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DS-",
+    "ScS",
+    "LLL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:stripped_bamboo_block"
+    },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "D": {
+      "item": "minecraft:yellow_dye"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:yellow_stripped_bamboo_dark_campfire"
+  }
+}

@@ -3,17 +3,22 @@
   "pattern": [
     " S ",
     "ScS",
-    "sss"
+    "LLL"
   ],
   "key": {
-    "c": {
-      "item": "colorfulcampfires:mangrove_campfire"
+    "L": {
+      "item": "minecraft:stripped_mangrove_log"
     },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "colorfulcampfires:stripped_mangrove_campfire"
     }
   },
   "result": {

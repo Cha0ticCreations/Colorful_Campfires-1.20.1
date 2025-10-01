@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D",
+    "-C"
+  ],
+  "key": {
+    "C": {
+      "item": "colorfulcampfires:bamboo_campfire"
+    },
+    "D": {
+      "item": "minecraft:lime_dye"
+    },
+    "-": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "colorfulcampfires:lime_bamboo_dark_campfire"
+  }
+}

@@ -14,7 +14,7 @@ public class ModCreativeModeTabs
 {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ColorfulCampfires.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> COLORFUL_CAMPFIRES_TAB = CREATIVE_MODE_TABS.register("colorful_campfires_tab",
+    public static final RegistryObject<CreativeModeTab> COLORFUL_CAMPFIRES_TAB = CREATIVE_MODE_TABS.register("colorful_campfires_regular_campfires_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.BIRCH_CAMPFIRE.get()))
                     .title(Component.translatable("Colorful Campfires: Regular"))
                     .displayItems((pParameters, pOutput)->{
@@ -29,11 +29,13 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.DARK_OAK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.MANGROVE_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.CHERRY_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BAMBOO_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.CRIMSON_STEM_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.WARPED_STEM_CAMPFIRE.get());
+                        
 
                         // Oak Campfire Variants
-                                                // === NON-STRIPPED CAMPFIRES ===
+                        // === NON-STRIPPED CAMPFIRES ===
                         // regular (non-dark)
                         pOutput.accept(ModBlocks.WHITE_OAK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.LIGHT_GRAY_OAK_CAMPFIRE.get());
@@ -335,6 +337,43 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.MAGENTA_CHERRY_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.PINK_CHERRY_DARK_CAMPFIRE.get());
 
+                        // === NON-STRIPPED CAMPFIRES ===
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_BAMBOO_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_BAMBOO_DARK_CAMPFIRE.get());
+
                         // CRIMSON CAMPFIRE VARIANTS
                         // === NON-STRIPPED CAMPFIRES ===
                         // regular (non-dark)
@@ -410,12 +449,14 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.PURPLE_WARPED_STEM_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.MAGENTA_WARPED_STEM_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.PINK_WARPED_STEM_DARK_CAMPFIRE.get());
+
+                        
                         
 
                     })
                     .build());
 
-    public static final RegistryObject<CreativeModeTab> STRIPPED_CAMPFIRES_TAB = CREATIVE_MODE_TABS.register("stripped_campfires_tab",
+    public static final RegistryObject<CreativeModeTab> STRIPPED_CAMPFIRES_TAB = CREATIVE_MODE_TABS.register("colorful_campfires_stripped_campfires_tab",
             ()-> CreativeModeTab.builder().icon(()-> new ItemStack(ModBlocks.STRIPPED_BIRCH_CAMPFIRE.get()))
                     .title(Component.translatable("Colorful Campfires: Stripped"))
                     .displayItems((pParameters, pOutput)->{
@@ -430,8 +471,10 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.STRIPPED_DARK_OAK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_MANGROVE_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_CHERRY_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.STRIPPED_BAMBOO_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.STRIPPED_WARPED_STEM_CAMPFIRE.get());
+                        
 
                         // STRIPPED OAK CAMPFIRE VARIANTS
                         // regular (non-dark)
@@ -729,6 +772,44 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.MAGENTA_STRIPPED_CHERRY_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.PINK_STRIPPED_CHERRY_DARK_CAMPFIRE.get());
 
+                        // STRIPPED BAMBOO CAMPFIRE VARIANTS
+                        // regular (non-dark)
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_BAMBOO_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_BAMBOO_CAMPFIRE.get());
+
+                        // dark
+                        pOutput.accept(ModBlocks.WHITE_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_GRAY_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GRAY_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLACK_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BROWN_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.RED_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.ORANGE_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.YELLOW_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIME_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.GREEN_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.CYAN_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.LIGHT_BLUE_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.BLUE_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PURPLE_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.MAGENTA_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+                        pOutput.accept(ModBlocks.PINK_STRIPPED_BAMBOO_DARK_CAMPFIRE.get());
+
+
                         // STRIPPED CRIMSON CAMPFIRE VARIANTS
                         // regular (non-dark)
                         pOutput.accept(ModBlocks.WHITE_STRIPPED_CRIMSON_STEM_CAMPFIRE.get());
@@ -803,6 +884,7 @@ public class ModCreativeModeTabs
                         pOutput.accept(ModBlocks.MAGENTA_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
                         pOutput.accept(ModBlocks.PINK_STRIPPED_WARPED_STEM_DARK_CAMPFIRE.get());
 
+                        
                     })
                     .build());
 

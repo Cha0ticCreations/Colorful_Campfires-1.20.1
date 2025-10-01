@@ -9,9 +9,14 @@
     "L": {
       "item": "minecraft:oak_log"
     },
-    "c": {
-      "item": "colorfulcampfires:oak_campfire"
-    },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
     }

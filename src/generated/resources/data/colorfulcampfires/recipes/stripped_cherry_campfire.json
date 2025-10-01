@@ -3,17 +3,22 @@
   "pattern": [
     " S ",
     "ScS",
-    "sss"
+    "LLL"
   ],
   "key": {
-    "c": {
-      "item": "colorfulcampfires:cherry_campfire"
+    "L": {
+      "item": "minecraft:stripped_cherry_log"
     },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
-    },
-    "s": {
-      "item": "colorfulcampfires:stripped_cherry_campfire"
     }
   },
   "result": {

@@ -9,9 +9,14 @@
     "L": {
       "item": "minecraft:spruce_log"
     },
-    "c": {
-      "item": "colorfulcampfires:spruce_campfire"
-    },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
     }

@@ -9,9 +9,14 @@
     "L": {
       "item": "minecraft:jungle_log"
     },
-    "c": {
-      "item": "colorfulcampfires:jungle_campfire"
-    },
+    "c": [
+      {
+        "item": "minecraft:coal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
     "S": {
       "item": "minecraft:stick"
     }
